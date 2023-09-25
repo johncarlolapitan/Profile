@@ -265,7 +265,7 @@ export default function Home() {
                                 text="Imagination Trumps Knowledge!"
                                 className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
                             />
-
+                            <center>
                             <div className="buttons">
                                 <button className="rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
                                 capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
@@ -283,7 +283,7 @@ export default function Home() {
                                 md:p-2 md:px-4 md:text-base
                                 " onClick={() => switchContent(3)}>Mobile Application </button>
                             </div>
-
+                            </center>
                             <br />
                             <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                                 <div className="col-span-12">
