@@ -44,24 +44,29 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            type="Bachelor of Science in Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            type="Bachelor of Science in Information Technology"
+            time="2019-2023"
+            place="STI College Tarlac"
+            info="Tertiary"
           />
 
           <Details
-            type="Master of Computer Science"
-            time="2020-2022"
-            place="Stanford University"
-            info="Completed a master's project on deep learning, developing a new neural network architecture for natural language understanding."
+            type="STI College Tarlac (Senior High School Diploma)"
+            time="2017-2019"
+            place="STI College Tarlac"
+            info="Secondary"
           />
-
           <Details
-            type="Online Coursework"
-            time="2016-2020"
-            place="Coursera and edX"
-            info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
+            type="Our Lady of Ransom Catholic School (Junior High School Diploma)"
+            time="2013-2017"
+            place="Matatalaib, Tarlac City"
+            info="Secondary"
+          />
+          <Details
+            type="Sto. Cristo Elementary School"
+            time="2007-2013"
+            place="Sto. Cristo, Tarlac City"
+            info="Primary"
           />
         </ul>
       </div>

@@ -1,464 +1,1210 @@
 import * as React from "react";
 
 export const GithubIcon = ({ className, ...rest }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="1em"
-    height="1em"
-    viewBox="0 0 512 512"
-    {...rest}
-    className={`w-full h-auto ${className}`}
-  >
-    <path fill="none" d="M0 0h512v512H0z" />
-    <path
-      fill="currentColor"
-      d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 0 0 3.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 0 1-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0 0 25.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 0 1 5-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 0 1 112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 0 1 5 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 0 0 4-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32Z"
-    />
-  </svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 512 512"
+        {...rest}
+        className={`w-full h-auto ${className}`}
+    >
+        <path fill="none" d="M0 0h512v512H0z" />
+        <path
+            fill="currentColor"
+            d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 0 0 3.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 0 1-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0 0 25.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 0 1 5-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 0 1 112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 0 1 5 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 0 0 4-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32Z"
+        />
+    </svg>
 );
 
 export const TwitterIcon = ({ className, ...rest }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="1em"
-    height="1em"
-    viewBox="0 0 256 209"
-    {...rest}
-    className={`w-full h-auto ${className}`}
-  >
-    <path fill="none" d="M0 0h256v209H0z" />
-    <path
-      fill="#55acee"
-      d="M256 25.45a105.04 105.04 0 0 1-30.166 8.27c10.845-6.5 19.172-16.793 23.093-29.057a105.183 105.183 0 0 1-33.351 12.745C205.995 7.201 192.346.822 177.239.822c-29.006 0-52.523 23.516-52.523 52.52 0 4.117.465 8.125 1.36 11.97-43.65-2.191-82.35-23.1-108.255-54.876-4.52 7.757-7.11 16.78-7.11 26.404 0 18.222 9.273 34.297 23.365 43.716a52.312 52.312 0 0 1-23.79-6.57c-.003.22-.003.44-.003.661 0 25.447 18.104 46.675 42.13 51.5a52.592 52.592 0 0 1-23.718.9c6.683 20.866 26.08 36.05 49.062 36.475-17.975 14.086-40.622 22.483-65.228 22.483-4.24 0-8.42-.249-12.529-.734 23.243 14.902 50.85 23.597 80.51 23.597 96.607 0 149.434-80.031 149.434-149.435 0-2.278-.05-4.543-.152-6.795A106.748 106.748 0 0 0 256 25.45"
-    />
-  </svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 209"
+        {...rest}
+        className={`w-full h-auto ${className}`}
+    >
+        <path fill="none" d="M0 0h256v209H0z" />
+        <path
+            fill="#55acee"
+            d="M256 25.45a105.04 105.04 0 0 1-30.166 8.27c10.845-6.5 19.172-16.793 23.093-29.057a105.183 105.183 0 0 1-33.351 12.745C205.995 7.201 192.346.822 177.239.822c-29.006 0-52.523 23.516-52.523 52.52 0 4.117.465 8.125 1.36 11.97-43.65-2.191-82.35-23.1-108.255-54.876-4.52 7.757-7.11 16.78-7.11 26.404 0 18.222 9.273 34.297 23.365 43.716a52.312 52.312 0 0 1-23.79-6.57c-.003.22-.003.44-.003.661 0 25.447 18.104 46.675 42.13 51.5a52.592 52.592 0 0 1-23.718.9c6.683 20.866 26.08 36.05 49.062 36.475-17.975 14.086-40.622 22.483-65.228 22.483-4.24 0-8.42-.249-12.529-.734 23.243 14.902 50.85 23.597 80.51 23.597 96.607 0 149.434-80.031 149.434-149.435 0-2.278-.05-4.543-.152-6.795A106.748 106.748 0 0 0 256 25.45"
+        />
+    </svg>
 );
 
 export const LinkedInIcon = ({ className, ...rest }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="1em"
-    height="1em"
-    viewBox="0 0 256 256"
-    {...rest}
-    className={`w-full h-auto ${className}`}
-  >
-    <path fill="none" d="M0 0h256v256H0z" />
-    <g fill="none">
-      <rect width={256} height={256} fill="#fff" rx={60} />
-      <rect width={256} height={256} fill="#0A66C2" rx={60} />
-      <path
-        fill="#fff"
-        d="M184.715 217.685h29.27a4 4 0 0 0 4-3.999l.015-61.842c0-32.323-6.965-57.168-44.738-57.168-14.359-.534-27.9 6.868-35.207 19.228a.32.32 0 0 1-.595-.161V101.66a4 4 0 0 0-4-4h-27.777a4 4 0 0 0-4 4v112.02a4 4 0 0 0 4 4h29.268a4 4 0 0 0 4-4v-55.373c0-15.657 2.97-30.82 22.381-30.82 19.135 0 19.383 17.916 19.383 31.834v54.364a4 4 0 0 0 4 4ZM38 59.627c0 11.865 9.767 21.627 21.632 21.627 11.862-.001 21.623-9.769 21.623-21.631C81.253 47.761 71.491 38 59.628 38 47.762 38 38 47.763 38 59.627Zm6.959 158.058h29.307a4 4 0 0 0 4-4V101.66a4 4 0 0 0-4-4H44.959a4 4 0 0 0-4 4v112.025a4 4 0 0 0 4 4Z"
-      />
-    </g>
-  </svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+        {...rest}
+        className={`w-full h-auto ${className}`}
+    >
+        <path fill="none" d="M0 0h256v256H0z" />
+        <g fill="none">
+            <rect width={256} height={256} fill="#fff" rx={60} />
+            <rect width={256} height={256} fill="#0A66C2" rx={60} />
+            <path
+                fill="#fff"
+                d="M184.715 217.685h29.27a4 4 0 0 0 4-3.999l.015-61.842c0-32.323-6.965-57.168-44.738-57.168-14.359-.534-27.9 6.868-35.207 19.228a.32.32 0 0 1-.595-.161V101.66a4 4 0 0 0-4-4h-27.777a4 4 0 0 0-4 4v112.02a4 4 0 0 0 4 4h29.268a4 4 0 0 0 4-4v-55.373c0-15.657 2.97-30.82 22.381-30.82 19.135 0 19.383 17.916 19.383 31.834v54.364a4 4 0 0 0 4 4ZM38 59.627c0 11.865 9.767 21.627 21.632 21.627 11.862-.001 21.623-9.769 21.623-21.631C81.253 47.761 71.491 38 59.628 38 47.762 38 38 47.763 38 59.627Zm6.959 158.058h29.307a4 4 0 0 0 4-4V101.66a4 4 0 0 0-4-4H44.959a4 4 0 0 0-4 4v112.025a4 4 0 0 0 4 4Z"
+            />
+        </g>
+    </svg>
 );
 
 export const PinterestIcon = ({ className, ...rest }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="1em"
-    height="1em"
-    viewBox="0 0 256 256"
-    {...rest}
-    className={`w-full h-auto ${className}`}
-  >
-    <path fill="none" d="M0 0h256v256H0z" />
-    <path
-      fill="#CB1F27"
-      d="M0 128.002c0 52.414 31.518 97.442 76.619 117.239-.36-8.938-.064-19.668 2.228-29.393 2.461-10.391 16.47-69.748 16.47-69.748s-4.089-8.173-4.089-20.252c0-18.969 10.994-33.136 24.686-33.136 11.643 0 17.268 8.745 17.268 19.217 0 11.704-7.465 29.211-11.304 45.426-3.207 13.578 6.808 24.653 20.203 24.653 24.252 0 40.586-31.149 40.586-68.055 0-28.054-18.895-49.052-53.262-49.052-38.828 0-63.017 28.956-63.017 61.3 0 11.152 3.288 19.016 8.438 25.106 2.368 2.797 2.697 3.922 1.84 7.134-.614 2.355-2.024 8.025-2.608 10.272-.852 3.242-3.479 4.401-6.409 3.204-17.884-7.301-26.213-26.886-26.213-48.902 0-36.361 30.666-79.961 91.482-79.961 48.87 0 81.035 35.364 81.035 73.325 0 50.213-27.916 87.726-69.066 87.726-13.819 0-26.818-7.47-31.271-15.955 0 0-7.431 29.492-9.005 35.187-2.714 9.869-8.026 19.733-12.883 27.421a127.897 127.897 0 0 0 36.277 5.249c70.684 0 127.996-57.309 127.996-128.005C256.001 57.309 198.689 0 128.005 0 57.314 0 0 57.309 0 128.002Z"
-    />
-  </svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+        {...rest}
+        className={`w-full h-auto ${className}`}
+    >
+        <path fill="none" d="M0 0h256v256H0z" />
+        <path
+            fill="#CB1F27"
+            d="M0 128.002c0 52.414 31.518 97.442 76.619 117.239-.36-8.938-.064-19.668 2.228-29.393 2.461-10.391 16.47-69.748 16.47-69.748s-4.089-8.173-4.089-20.252c0-18.969 10.994-33.136 24.686-33.136 11.643 0 17.268 8.745 17.268 19.217 0 11.704-7.465 29.211-11.304 45.426-3.207 13.578 6.808 24.653 20.203 24.653 24.252 0 40.586-31.149 40.586-68.055 0-28.054-18.895-49.052-53.262-49.052-38.828 0-63.017 28.956-63.017 61.3 0 11.152 3.288 19.016 8.438 25.106 2.368 2.797 2.697 3.922 1.84 7.134-.614 2.355-2.024 8.025-2.608 10.272-.852 3.242-3.479 4.401-6.409 3.204-17.884-7.301-26.213-26.886-26.213-48.902 0-36.361 30.666-79.961 91.482-79.961 48.87 0 81.035 35.364 81.035 73.325 0 50.213-27.916 87.726-69.066 87.726-13.819 0-26.818-7.47-31.271-15.955 0 0-7.431 29.492-9.005 35.187-2.714 9.869-8.026 19.733-12.883 27.421a127.897 127.897 0 0 0 36.277 5.249c70.684 0 127.996-57.309 127.996-128.005C256.001 57.309 198.689 0 128.005 0 57.314 0 0 57.309 0 128.002Z"
+        />
+    </svg>
 );
 
 export const DribbbleIcon = ({ className, ...rest }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="1em"
-    height="1em"
-    viewBox="0 0 256 256"
-    {...rest}
-    className={`w-full h-auto ${className}`}
-  >
-    <path fill="none" d="M0 0h256v256H0z" />
-    <path
-      fill="#E74D89"
-      d="M128 8.5c66 0 119.4 53.4 119.4 119.3S194 247.2 128 247.2 8.6 193.8 8.6 127.9 62 8.5 128 8.5Z"
-    />
-    <path
-      fill="#B2215A"
-      d="M128 255.7c-70.6 0-128-57.3-128-127.8C0 57.3 57.4 0 128 0s128 57.3 128 127.8-57.4 127.9-128 127.9Zm107.9-110.4c-3.7-1.2-33.8-10.1-68.1-4.7 14.3 39.2 20.1 71.2 21.2 77.8 24.6-16.5 42.1-42.7 46.9-73.1Zm-65.2 83.2c-1.6-9.6-8-43-23.3-82.8-.2.1-.5.2-.7.2-61.7 21.5-83.8 64.2-85.8 68.2 18.5 14.4 41.8 23 67.1 23 15.1.1 29.6-3 42.7-8.6ZM46.8 201c2.5-4.2 32.5-53.8 88.9-72.1 1.4-.5 2.9-.9 4.3-1.3-2.7-6.2-5.7-12.4-8.9-18.5-54.6 16.3-107.6 15.6-112.4 15.5 0 1.1-.1 2.2-.1 3.3.1 28.1 10.7 53.7 28.2 73.1ZM21 105.6c4.9.1 49.9.3 101.1-13.3C104 60.1 84.4 33.1 81.6 29.2 50.9 43.6 28.1 71.8 21 105.6Zm81.4-83.8c3 4 22.9 31 40.8 63.9 38.9-14.6 55.3-36.6 57.3-39.4-19.3-17.1-44.7-27.5-72.5-27.5-8.8 0-17.4 1.1-25.6 3Zm110.2 37.1c-2.3 3.1-20.6 26.6-61 43.1 2.5 5.2 5 10.5 7.3 15.8.8 1.9 1.6 3.8 2.4 5.6 36.4-4.6 72.5 2.8 76.1 3.5-.3-25.7-9.5-49.4-24.8-68Z"
-    />
-  </svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+        {...rest}
+        className={`w-full h-auto ${className}`}
+    >
+        <path fill="none" d="M0 0h256v256H0z" />
+        <path
+            fill="#E74D89"
+            d="M128 8.5c66 0 119.4 53.4 119.4 119.3S194 247.2 128 247.2 8.6 193.8 8.6 127.9 62 8.5 128 8.5Z"
+        />
+        <path
+            fill="#B2215A"
+            d="M128 255.7c-70.6 0-128-57.3-128-127.8C0 57.3 57.4 0 128 0s128 57.3 128 127.8-57.4 127.9-128 127.9Zm107.9-110.4c-3.7-1.2-33.8-10.1-68.1-4.7 14.3 39.2 20.1 71.2 21.2 77.8 24.6-16.5 42.1-42.7 46.9-73.1Zm-65.2 83.2c-1.6-9.6-8-43-23.3-82.8-.2.1-.5.2-.7.2-61.7 21.5-83.8 64.2-85.8 68.2 18.5 14.4 41.8 23 67.1 23 15.1.1 29.6-3 42.7-8.6ZM46.8 201c2.5-4.2 32.5-53.8 88.9-72.1 1.4-.5 2.9-.9 4.3-1.3-2.7-6.2-5.7-12.4-8.9-18.5-54.6 16.3-107.6 15.6-112.4 15.5 0 1.1-.1 2.2-.1 3.3.1 28.1 10.7 53.7 28.2 73.1ZM21 105.6c4.9.1 49.9.3 101.1-13.3C104 60.1 84.4 33.1 81.6 29.2 50.9 43.6 28.1 71.8 21 105.6Zm81.4-83.8c3 4 22.9 31 40.8 63.9 38.9-14.6 55.3-36.6 57.3-39.4-19.3-17.1-44.7-27.5-72.5-27.5-8.8 0-17.4 1.1-25.6 3Zm110.2 37.1c-2.3 3.1-20.6 26.6-61 43.1 2.5 5.2 5 10.5 7.3 15.8.8 1.9 1.6 3.8 2.4 5.6 36.4-4.6 72.5 2.8 76.1 3.5-.3-25.7-9.5-49.4-24.8-68Z"
+        />
+    </svg>
 );
 
 export const SunIcon = ({ className, ...rest }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    {...rest}
-    className={`w-full h-auto ${className}`}
-  >
-    <g
-      fill="none"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...rest}
+        className={`w-full h-auto ${className}`}
     >
-      <g strokeDasharray="2">
-        <path d="M12 21v1M21 12h1M12 3v-1M3 12h-1">
-          <animate
-            fill="freeze"
-            attributeName="stroke-dashoffset"
-            dur="0.2s"
-            values="4;2"
-          />
-        </path>
-        <path d="M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5">
-          <animate
-            fill="freeze"
-            attributeName="stroke-dashoffset"
-            begin="0.2s"
-            dur="0.2s"
-            values="4;2"
-          />
-        </path>
-      </g>
-      <path
-        fill="currentColor"
-        d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z"
-        opacity="0"
-      >
-        <set attributeName="opacity" begin="0.5s" to="1" />
-      </path>
-    </g>
-    <g fill="currentColor" fillOpacity="0">
-      <path d="m15.22 6.03l2.53-1.94L14.56 4L13.5 1l-1.06 3l-3.19.09l2.53 1.94l-.91 3.06l2.63-1.81l2.63 1.81z">
-        <animate
-          id="lineMdSunnyFilledLoopToMoonFilledLoopTransition0"
-          fill="freeze"
-          attributeName="fill-opacity"
-          begin="0.6s;lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+6s"
-          dur="0.4s"
-          values="0;1"
-        />
-        <animate
-          fill="freeze"
-          attributeName="fill-opacity"
-          begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+2.2s"
-          dur="0.4s"
-          values="1;0"
-        />
-      </path>
-      <path d="M13.61 5.25L15.25 4l-2.06-.05L12.5 2l-.69 1.95L9.75 4l1.64 1.25l-.59 1.98l1.7-1.17l1.7 1.17z">
-        <animate
-          fill="freeze"
-          attributeName="fill-opacity"
-          begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+3s"
-          dur="0.4s"
-          values="0;1"
-        />
-        <animate
-          fill="freeze"
-          attributeName="fill-opacity"
-          begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+5.2s"
-          dur="0.4s"
-          values="1;0"
-        />
-      </path>
-      <path d="M19.61 12.25L21.25 11l-2.06-.05L18.5 9l-.69 1.95l-2.06.05l1.64 1.25l-.59 1.98l1.7-1.17l1.7 1.17z">
-        <animate
-          fill="freeze"
-          attributeName="fill-opacity"
-          begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+0.4s"
-          dur="0.4s"
-          values="0;1"
-        />
-        <animate
-          fill="freeze"
-          attributeName="fill-opacity"
-          begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+2.8s"
-          dur="0.4s"
-          values="1;0"
-        />
-      </path>
-      <path d="m20.828 9.731l1.876-1.439l-2.366-.067L19.552 6l-.786 2.225l-2.366.067l1.876 1.439L17.601 12l1.951-1.342L21.503 12z">
-        <animate
-          fill="freeze"
-          attributeName="fill-opacity"
-          begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+3.4s"
-          dur="0.4s"
-          values="0;1"
-        />
-        <animate
-          fill="freeze"
-          attributeName="fill-opacity"
-          begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+5.6s"
-          dur="0.4s"
-          values="1;0"
-        />
-      </path>
-    </g>
-    <mask id="lineMdSunnyFilledLoopToMoonFilledLoopTransition1">
-      <circle cx="12" cy="12" r="12" fill="#fff" />
-      <circle cx="22" cy="2" r="3" fill="#fff">
-        <animate
-          fill="freeze"
-          attributeName="cx"
-          begin="0.1s"
-          dur="0.4s"
-          values="22;18"
-        />
-        <animate
-          fill="freeze"
-          attributeName="cy"
-          begin="0.1s"
-          dur="0.4s"
-          values="2;6"
-        />
-        <animate
-          fill="freeze"
-          attributeName="r"
-          begin="0.1s"
-          dur="0.4s"
-          values="3;12"
-        />
-      </circle>
-      <circle cx="22" cy="2" r="1">
-        <animate
-          fill="freeze"
-          attributeName="cx"
-          begin="0.1s"
-          dur="0.4s"
-          values="22;18"
-        />
-        <animate
-          fill="freeze"
-          attributeName="cy"
-          begin="0.1s"
-          dur="0.4s"
-          values="2;6"
-        />
-        <animate
-          fill="freeze"
-          attributeName="r"
-          begin="0.1s"
-          dur="0.4s"
-          values="1;10"
-        />
-      </circle>
-    </mask>
-    <circle
-      cx="12"
-      cy="12"
-      r="6"
-      fill="currentColor"
-      mask="url(#lineMdSunnyFilledLoopToMoonFilledLoopTransition1)"
-    >
-      <set attributeName="opacity" begin="0.5s" to="0" />
-      <animate
-        fill="freeze"
-        attributeName="r"
-        begin="0.1s"
-        dur="0.4s"
-        values="6;10"
-      />
-    </circle>
-  </svg>
+        <g
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+        >
+            <g strokeDasharray="2">
+                <path d="M12 21v1M21 12h1M12 3v-1M3 12h-1">
+                    <animate
+                        fill="freeze"
+                        attributeName="stroke-dashoffset"
+                        dur="0.2s"
+                        values="4;2"
+                    />
+                </path>
+                <path d="M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5">
+                    <animate
+                        fill="freeze"
+                        attributeName="stroke-dashoffset"
+                        begin="0.2s"
+                        dur="0.2s"
+                        values="4;2"
+                    />
+                </path>
+            </g>
+            <path
+                fill="currentColor"
+                d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z"
+                opacity="0"
+            >
+                <set attributeName="opacity" begin="0.5s" to="1" />
+            </path>
+        </g>
+        <g fill="currentColor" fillOpacity="0">
+            <path d="m15.22 6.03l2.53-1.94L14.56 4L13.5 1l-1.06 3l-3.19.09l2.53 1.94l-.91 3.06l2.63-1.81l2.63 1.81z">
+                <animate
+                    id="lineMdSunnyFilledLoopToMoonFilledLoopTransition0"
+                    fill="freeze"
+                    attributeName="fill-opacity"
+                    begin="0.6s;lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+6s"
+                    dur="0.4s"
+                    values="0;1"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="fill-opacity"
+                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+2.2s"
+                    dur="0.4s"
+                    values="1;0"
+                />
+            </path>
+            <path d="M13.61 5.25L15.25 4l-2.06-.05L12.5 2l-.69 1.95L9.75 4l1.64 1.25l-.59 1.98l1.7-1.17l1.7 1.17z">
+                <animate
+                    fill="freeze"
+                    attributeName="fill-opacity"
+                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+3s"
+                    dur="0.4s"
+                    values="0;1"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="fill-opacity"
+                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+5.2s"
+                    dur="0.4s"
+                    values="1;0"
+                />
+            </path>
+            <path d="M19.61 12.25L21.25 11l-2.06-.05L18.5 9l-.69 1.95l-2.06.05l1.64 1.25l-.59 1.98l1.7-1.17l1.7 1.17z">
+                <animate
+                    fill="freeze"
+                    attributeName="fill-opacity"
+                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+0.4s"
+                    dur="0.4s"
+                    values="0;1"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="fill-opacity"
+                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+2.8s"
+                    dur="0.4s"
+                    values="1;0"
+                />
+            </path>
+            <path d="m20.828 9.731l1.876-1.439l-2.366-.067L19.552 6l-.786 2.225l-2.366.067l1.876 1.439L17.601 12l1.951-1.342L21.503 12z">
+                <animate
+                    fill="freeze"
+                    attributeName="fill-opacity"
+                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+3.4s"
+                    dur="0.4s"
+                    values="0;1"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="fill-opacity"
+                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+5.6s"
+                    dur="0.4s"
+                    values="1;0"
+                />
+            </path>
+        </g>
+        <mask id="lineMdSunnyFilledLoopToMoonFilledLoopTransition1">
+            <circle cx="12" cy="12" r="12" fill="#fff" />
+            <circle cx="22" cy="2" r="3" fill="#fff">
+                <animate
+                    fill="freeze"
+                    attributeName="cx"
+                    begin="0.1s"
+                    dur="0.4s"
+                    values="22;18"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="cy"
+                    begin="0.1s"
+                    dur="0.4s"
+                    values="2;6"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="r"
+                    begin="0.1s"
+                    dur="0.4s"
+                    values="3;12"
+                />
+            </circle>
+            <circle cx="22" cy="2" r="1">
+                <animate
+                    fill="freeze"
+                    attributeName="cx"
+                    begin="0.1s"
+                    dur="0.4s"
+                    values="22;18"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="cy"
+                    begin="0.1s"
+                    dur="0.4s"
+                    values="2;6"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="r"
+                    begin="0.1s"
+                    dur="0.4s"
+                    values="1;10"
+                />
+            </circle>
+        </mask>
+        <circle
+            cx="12"
+            cy="12"
+            r="6"
+            fill="currentColor"
+            mask="url(#lineMdSunnyFilledLoopToMoonFilledLoopTransition1)"
+        >
+            <set attributeName="opacity" begin="0.5s" to="0" />
+            <animate
+                fill="freeze"
+                attributeName="r"
+                begin="0.1s"
+                dur="0.4s"
+                values="6;10"
+            />
+        </circle>
+    </svg>
 );
 
 export const MoonIcon = ({ className, ...rest }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    {...rest}
-    className={`w-full h-auto ${className}`}
-  >
-    <rect x="0" y="0" width="24" height="24" fill="rgba(255, 255, 255, 0)" />
-    <g
-      fill="none"
-      stroke="currentColor"
-      strokeDasharray="2"
-      strokeDashoffset="2"
-      strokeLinecap="round"
-      strokeWidth="2"
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...rest}
+        className={`w-full h-auto ${className}`}
     >
-      <path d="M0 0">
-        <animate
-          fill="freeze"
-          attributeName="d"
-          begin="1.2s"
-          dur="0.2s"
-          values="M12 19v1M19 12h1M12 5v-1M5 12h-1;M12 21v1M21 12h1M12 3v-1M3 12h-1"
-        />
-        <animate
-          fill="freeze"
-          attributeName="stroke-dashoffset"
-          begin="1.2s"
-          dur="0.2s"
-          values="2;0"
-        />
-      </path>
-      <path d="M0 0">
-        <animate
-          fill="freeze"
-          attributeName="d"
-          begin="1.5s"
-          dur="0.2s"
-          values="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5;M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5"
-        />
-        <animate
-          fill="freeze"
-          attributeName="stroke-dashoffset"
-          begin="1.5s"
-          dur="1.2s"
-          values="2;0"
-        />
-      </path>
-      <animateTransform
-        attributeName="transform"
-        dur="30s"
-        repeatCount="indefinite"
-        type="rotate"
-        values="0 12 12;360 12 12"
-      />
-    </g>
-    <g fill="currentColor">
-      <path d="M15.22 6.03L17.75 4.09L14.56 4L13.5 1L12.44 4L9.25 4.09L11.78 6.03L10.87 9.09L13.5 7.28L16.13 9.09L15.22 6.03Z">
-        <animate
-          fill="freeze"
-          attributeName="fill-opacity"
-          dur="0.4s"
-          values="1;0"
-        />
-      </path>
-      <path d="M19.61 12.25L21.25 11L19.19 10.95L18.5 9L17.81 10.95L15.75 11L17.39 12.25L16.8 14.23L18.5 13.06L20.2 14.23L19.61 12.25Z">
-        <animate
-          fill="freeze"
-          attributeName="fill-opacity"
-          begin="0.2s"
-          dur="0.4s"
-          values="1;0"
-        />
-      </path>
-    </g>
-    <g
-      fill="currentColor"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-    >
-      <path d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z" />
-      <set attributeName="opacity" begin="0.6s" to="0" />
-    </g>
-    <mask id="lineMdMoonFilledToSunnyFilledLoopTransition0">
-      <circle cx="12" cy="12" r="12" fill="#fff" />
-      <circle cx="18" cy="6" r="12" fill="#fff">
-        <animate
-          fill="freeze"
-          attributeName="cx"
-          begin="0.6s"
-          dur="0.4s"
-          values="18;22"
-        />
-        <animate
-          fill="freeze"
-          attributeName="cy"
-          begin="0.6s"
-          dur="0.4s"
-          values="6;2"
-        />
-        <animate
-          fill="freeze"
-          attributeName="r"
-          begin="0.6s"
-          dur="0.4s"
-          values="12;3"
-        />
-      </circle>
-      <circle cx="18" cy="6" r="10">
-        <animate
-          fill="freeze"
-          attributeName="cx"
-          begin="0.6s"
-          dur="0.4s"
-          values="18;22"
-        />
-        <animate
-          fill="freeze"
-          attributeName="cy"
-          begin="0.6s"
-          dur="0.4s"
-          values="6;2"
-        />
-        <animate
-          fill="freeze"
-          attributeName="r"
-          begin="0.6s"
-          dur="0.4s"
-          values="10;1"
-        />
-      </circle>
-    </mask>
-    <circle
-      cx="12"
-      cy="12"
-      r="10"
-      fill="currentColor"
-      mask="url(#lineMdMoonFilledToSunnyFilledLoopTransition0)"
-      opacity="0"
-    >
-      <set attributeName="opacity" begin="0.6s" to="1" />
-      <animate
-        fill="freeze"
-        attributeName="r"
-        begin="0.6s"
-        dur="0.4s"
-        values="10;6"
-      />
-    </circle>
-  </svg>
+        <rect x="0" y="0" width="24" height="24" fill="rgba(255, 255, 255, 0)" />
+        <g
+            fill="none"
+            stroke="currentColor"
+            strokeDasharray="2"
+            strokeDashoffset="2"
+            strokeLinecap="round"
+            strokeWidth="2"
+        >
+            <path d="M0 0">
+                <animate
+                    fill="freeze"
+                    attributeName="d"
+                    begin="1.2s"
+                    dur="0.2s"
+                    values="M12 19v1M19 12h1M12 5v-1M5 12h-1;M12 21v1M21 12h1M12 3v-1M3 12h-1"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="stroke-dashoffset"
+                    begin="1.2s"
+                    dur="0.2s"
+                    values="2;0"
+                />
+            </path>
+            <path d="M0 0">
+                <animate
+                    fill="freeze"
+                    attributeName="d"
+                    begin="1.5s"
+                    dur="0.2s"
+                    values="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5;M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="stroke-dashoffset"
+                    begin="1.5s"
+                    dur="1.2s"
+                    values="2;0"
+                />
+            </path>
+            <animateTransform
+                attributeName="transform"
+                dur="30s"
+                repeatCount="indefinite"
+                type="rotate"
+                values="0 12 12;360 12 12"
+            />
+        </g>
+        <g fill="currentColor">
+            <path d="M15.22 6.03L17.75 4.09L14.56 4L13.5 1L12.44 4L9.25 4.09L11.78 6.03L10.87 9.09L13.5 7.28L16.13 9.09L15.22 6.03Z">
+                <animate
+                    fill="freeze"
+                    attributeName="fill-opacity"
+                    dur="0.4s"
+                    values="1;0"
+                />
+            </path>
+            <path d="M19.61 12.25L21.25 11L19.19 10.95L18.5 9L17.81 10.95L15.75 11L17.39 12.25L16.8 14.23L18.5 13.06L20.2 14.23L19.61 12.25Z">
+                <animate
+                    fill="freeze"
+                    attributeName="fill-opacity"
+                    begin="0.2s"
+                    dur="0.4s"
+                    values="1;0"
+                />
+            </path>
+        </g>
+        <g
+            fill="currentColor"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+        >
+            <path d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z" />
+            <set attributeName="opacity" begin="0.6s" to="0" />
+        </g>
+        <mask id="lineMdMoonFilledToSunnyFilledLoopTransition0">
+            <circle cx="12" cy="12" r="12" fill="#fff" />
+            <circle cx="18" cy="6" r="12" fill="#fff">
+                <animate
+                    fill="freeze"
+                    attributeName="cx"
+                    begin="0.6s"
+                    dur="0.4s"
+                    values="18;22"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="cy"
+                    begin="0.6s"
+                    dur="0.4s"
+                    values="6;2"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="r"
+                    begin="0.6s"
+                    dur="0.4s"
+                    values="12;3"
+                />
+            </circle>
+            <circle cx="18" cy="6" r="10">
+                <animate
+                    fill="freeze"
+                    attributeName="cx"
+                    begin="0.6s"
+                    dur="0.4s"
+                    values="18;22"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="cy"
+                    begin="0.6s"
+                    dur="0.4s"
+                    values="6;2"
+                />
+                <animate
+                    fill="freeze"
+                    attributeName="r"
+                    begin="0.6s"
+                    dur="0.4s"
+                    values="10;1"
+                />
+            </circle>
+        </mask>
+        <circle
+            cx="12"
+            cy="12"
+            r="10"
+            fill="currentColor"
+            mask="url(#lineMdMoonFilledToSunnyFilledLoopTransition0)"
+            opacity="0"
+        >
+            <set attributeName="opacity" begin="0.6s" to="1" />
+            <animate
+                fill="freeze"
+                attributeName="r"
+                begin="0.6s"
+                dur="0.4s"
+                values="10;6"
+            />
+        </circle>
+    </svg>
 );
 
 export const CircularText = ({ className, ...rest }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="496"
-    height="496"
-    viewBox="0 0 496 496"
-    xmlSpace="preserve"
-    className={`w-full h-auto ${className}`}
-    {...rest}
-  >
-    <path d="M234.709 430.04c-.856-8.144-1.693-15.837-2.53-23.53l-1.202-.281c-4.328 7.025-8.66 14.048-12.983 21.076-.786 1.276-1.597 2.541-2.302 3.862-1.19 2.23-2.64 3.718-5.52 3.1-2.984-.64-3.269-2.735-3.526-5.216-1.021-9.853-2.186-19.691-3.465-31.02-5.824 9.69-11.023 18.148-16.013 26.728-2.136 3.671-4.532 4.592-8.005 1.873.081-2.568 1.784-4.33 2.944-6.291 5.848-9.894 11.813-19.72 17.695-29.593 1.202-2.018 2.465-3.423 5.18-2.695 2.768.741 4.08 2.124 4.361 5.149.888 9.53 2.102 19.032 3.284 29.375 4.161-4.222 5.983-8.91 8.686-12.98 2.855-4.297 5.458-8.769 8.02-13.25 1.283-2.245 3.03-2.15 5.127-1.717 1.928.397 3.567.971 3.8 3.26 1.398 13.72 2.797 27.441 4.162 41.165.044.444-.267.924-.405 1.363-6.239-.086-6.239-.086-7.308-10.378zM366.087 319.957c.827-.624 1.314-1.126 1.908-1.393 2.112-.95 4.324-3.378 6.46-.25 2.542 3.72-.984 4.348-3.112 5.658-2.441 1.503-4.49 3.447-6.186 5.751-4.283 5.819-3.58 9.84 2.853 14.524.628-6.345 2.9-11.685 8.217-15.276 2.83-1.911 5.936-3.118 9.365-2.975 7.026.294 13.737 5.742 15.377 12.296 1.976 7.893-2.3 15.713-11.264 20.606-1.077 1.008.262 1.81.225 2.705-.157 3.773-2.902 5.272-6.002 3.087-7.214-5.085-14.47-10.134-21.417-15.57-7.697-6.022-8.662-13.345-3.338-21.515 1.826-2.803 3.918-5.39 6.914-7.648m13.654 33.134c1.716.799 3.542.917 5.38.751 4.91-.443 9.299-5.322 9.573-10.58.26-4.977-2.98-9.086-7.886-10.002-4.912-.917-9.627 1.65-11.772 6.409-2.134 4.734-.779 9.134 4.705 13.422zM435.2 203.107c.744 7.814 3.645 14.952 2.28 22.568-1.904 10.635-8.45 16.69-20.02 18.295-8.14 1.13-16.863-3.986-20.811-12.505-3.333-7.19-3.58-15.12-4.98-22.77-.45-2.46 1.164-3.284 3.086-3.626 11.923-2.117 23.859-4.163 35.785-6.263 3.134-.552 4.098 1.356 4.66 4.301m-30.277 7.322c-1.92.828-4.285.303-6.085 1.908.58 5.153 1.038 10.285 3.01 15.075 2.644 6.425 7.935 9.604 14.954 9.266 6.8-.328 11.833-4.384 13.942-10.835 1.991-6.091-.355-11.79-1.27-17.61-.318-2.013-2.08-1.592-3.633-1.316-6.689 1.185-13.392 2.288-20.918 3.512zM81.41 333.52c-3.15-7.165-6.841-13.767-5.076-21.743 2.078-9.384 8.162-14.747 17.127-16.717 8.76-1.926 16.144 1.079 21.495 8.284 4.501 6.06 6.721 13.319 9.797 20.12 1.04 2.302-.357 3.338-2.212 4.16-11.088 4.918-22.188 9.809-33.236 14.815-2.671 1.21-4.015.255-4.977-2.164-.86-2.16-1.834-4.275-2.918-6.755m4.554-4.986 3.023 6.138c5.782-2.52 11.218-4.9 16.662-7.262 12.565-5.453 13.191-7.84 5.006-19.29a18.49 18.49 0 0 0-1.915-2.286c-5.023-5.048-11.78-5.876-18.298-2.275-6.345 3.505-9.216 9.868-7.401 16.786.67 2.555 1.709 5.013 2.923 8.189zM139.566 385.566c-3.229 3.375-6.237 6.473-9.215 9.6-1.523 1.599-2.974 1.865-4.678.187-1.652-1.627-2.473-3.231-.368-5.008 3.168-2.674 6.404-5.268 9.197-8.618-6.522-2.016-10.98-5.164-13.751-10.396-1.663-3.139-2.465-6.495-1.675-10.101 1.82-8.306 9.345-14.659 17.296-14.55 8.348.113 14.72 5.833 16.345 15.064 2.486-1.662 4.614-1.139 6.14 1.267 1.771 2.79-.947 3.849-2.282 5.239-5.523 5.75-11.173 11.378-17.009 17.316m-11.34-27.788c-3.949 6.497-2.924 12.506 2.698 15.828 5.174 3.058 12.167.632 15.12-5.245 2.715-5.403.524-11.466-5.184-14.086-4.784-2.195-8.682-.428-12.635 3.503zM150.251 142.09c-1.963.323-2.99.912-1.595 2.615 1.58 1.928 3.264 3.772 4.856 5.691 3.453 4.162 3.29 4.771-2.3 7.674-6.661-7.669-13.4-15.43-20.143-23.189-1.854-2.134-3.81-4.19-5.54-6.419-1.122-1.445-3.538-2.64-2.021-5.016 1.354-2.12 3.285-3.317 5.669-1.517 1.391-2.536 2.334-4.892 3.816-6.838 4.389-5.765 11.821-8.104 18.215-6.002 7.074 2.325 12.118 9.207 12.14 16.564.022 7.893-4.128 13.204-13.097 16.437m-12.2-23.524c-3.611 5.084-3.708 9.249-.315 13.564 3.274 4.163 7.963 5.637 12.291 3.735 3.913-1.719 6.51-4.486 6.657-9.029.156-4.818-2.094-8.374-6.198-10.51-4.21-2.192-8.331-1.616-12.434 2.24zM381.563 127.557c1.81-1.975 3.43-3.653 4.943-5.42 1.79-2.09 3.392-2.132 5.404-.146 1.952 1.925 1.45 3.343-.193 5.046-5.196 5.387-10.122 11.05-15.518 16.224-11.272 10.813-28.02 5.914-32.07-9.236-1.52-5.685.5-10.686 3.993-14.849 5.34-6.361 11.192-12.29 16.813-18.416 1.666-1.815 3.094-1.248 4.685.195 1.797 1.63 2.241 3.055.365 5.004a820.105 820.105 0 0 0-15.024 16.006c-5.023 5.506-5.539 10.896-1.691 15.599 5.119 6.257 11.25 6.858 17.275 1.338 3.795-3.476 7.2-7.377 11.018-11.345zM308.897 74.803c-1.545 6.714-2.708 13.11-4.428 19.351-3.16 11.468-11.25 16.327-22.196 13.713-11.332-2.707-16.17-10.557-13.773-22.503 1.34-6.68 2.746-13.35 4.269-19.99.48-2.095.428-4.86 4.187-4.079 3.564.74 3.475 2.712 2.8 5.509-1.521 6.3-3.008 12.616-4.202 18.983-1.961 10.45 2.48 16.267 11.943 16.002 5.263-.148 8.594-3.003 10.162-9.25 1.618-6.445 2.828-12.994 4.426-19.446.623-2.513.492-6.244 4.947-5.178 4.208 1.007 2.083 4.097 1.865 6.888zM395.041 170.055c-2.806 6.617-5.466 12.892-8.162 19.153-.1.232-.543.315-1.122.627-3.116-2.542-4.057-5.386-2.263-9.404 2.142-4.799 4.536-9.558 5.703-14.767-7.422-4.165-18.242 2.383-23.85-8.466 7.867-1.406 14.89.331 21.832.931 4.346.376 5.941-1.055 7.305-4.579 2.326-6.01 4.95-11.904 7.603-18.217 3.855 2.837 4.952 5.711 3.137 9.724-2.033 4.492-3.758 9.123-5.887 14.358 5.333.477 9.907 1.155 14.49 1.218 4.323.059 6.888 1.777 7.915 6.416-7.048 1.19-13.854-.716-20.685-.98-3.176-.123-5.147.424-6.016 3.986zM153.284 397.435c-2.755-5.033-2.726-9.792-.718-14.708 1.344-3.292 2.867-4.265 6.34-2.211 5.96 3.524 11.608 7.661 18.115 10.309 2.224-6.991-2.18-12.872-9.989-13.721-1.45-.158-3.055.4-4.318-.711-1.147-1.01-1.208-2.465-.769-3.697.779-2.183 2.849-1.982 4.659-1.958 8.405.11 16.363 6.839 18.028 15.193 1.395 6.998-2.998 15.218-9.837 18.405-7.634 3.558-15.503 1.128-21.511-6.901m4.868-9.982c-1.314 5.054.573 9.234 5.128 11.357 4.204 1.96 7.97 1.006 10.797-2.964-4.98-3.194-9.813-6.577-15.925-8.393zM321.22 393.132c2.876-1.654 5.922-2.343 7.888-4.784-4.754-5.578-12.795-4.962-17.288 1.46-1.57 2.246-2.875 4.482-5.737 2.189-2.74-2.195-.376-4.24.852-5.977 4.583-6.486 14.066-9.418 21.358-6.781 7.111 2.572 11.642 10.119 11.007 18.334-.543 7.026-6.699 13.267-14.39 14.59-6.34 1.09-13.733-2.82-16.694-8.621-1.304-2.554-.64-3.975 1.85-5.086 3.648-1.628 7.22-3.428 11.153-5.324m-5.213 8.703c2.199 3.864 6.384 5.218 10.788 3.488 4.638-1.82 6.51-5.812 5.071-11.7-5.229 2.612-10.348 5.17-15.86 8.212zM181.923 121.352c-9.447 2.255-17.037-1.685-20.43-10.31-3.235-8.218-.433-16.234 7.185-20.56 7.463-4.236 15.766-2.691 21.017 3.91 3.402 4.276 3.207 5.318-1.56 7.81-5.862 3.063-11.74 6.095-17.65 9.16 3.56 5.614 10.776 5.662 15.939.56a13.36 13.36 0 0 0 2.364-3.18c1.074-2.015 2.453-1.8 4.165-.983 2.04.974 1.996 2.456 1.154 4.14-2.47 4.941-6.705 7.69-12.184 9.453m-11.685-24.716c-2.187 1.726-3.465 4.042-3.705 6.745-.157 1.756.5 3.658 2.862 2.554 4.852-2.267 9.789-4.445 14.166-7.696-3.79-4.71-6.853-5.12-13.323-1.603zM97.055 261.275c1.567-2.905 3.307-3.474 5.706-1.349 5.557 4.924 6.615 16.782 2.025 23.61-4.33 6.443-14.638 8.928-22.015 5.308-6.91-3.39-10.584-12.394-8.254-20.035 1.775-5.822 5.906-9.112 11.497-10.76 3.008-.886 4.98-.338 5.427 3.535.792 6.87 2.133 13.675 3.253 20.567 6.884-2.107 8.954-9.795 4.893-16.402-.854-1.39-2.546-2.247-2.532-4.474m-11.63 21.756c1.222.5 2.449 1.1 3.765-.294-.752-5.83-1.074-11.836-2.955-17.705-7.945 4.011-8.389 11.934-.81 17.999zM104.456 218.73c-8.207 3.815-15.646 2.872-21.106-2.422-4.99-4.839-6.368-12.281-3.505-18.925 2.941-6.827 10.315-10.742 17.53-9.513 3.565.608 4.841 2.17 3.698 5.813-2.075 6.615-3.9 13.308-5.855 20.062 6.428.633 11.136-3.898 11.435-10.496.067-1.479.008-3.042-.404-4.445-.636-2.165-.206-3.56 2.002-4.293 2.58-.855 3.212 1.058 3.836 2.776 2.548 7.014-.457 15.656-7.63 21.443m-13.645-8.823c1.407-5.008 3.394-9.875 4.01-15.353-4.672-.567-7.538 1.42-9.401 5.135-1.89 3.767-1.493 7.404 1.154 10.633 1.066 1.3 2.538 3.218 4.237-.415zM410.619 259.145c.138-3.99-1.429-4.481-4.263-2.778-4.464 2.683-6.338 9.433-3.97 15.081.884 2.11 2.01 4.086-.776 5.466-2.903 1.438-3.946-.918-4.758-2.852-2.931-6.979-2.31-13.775 2.329-19.75 3.958-5.098 9.479-7.065 15.93-5.925 6.995 1.236 11.859 4.977 13.735 12.046 2.843 10.713-5.167 21.15-15.863 20.917-3.22-.07-4.612-1.297-4.258-4.497a2463.23 2463.23 0 0 0 1.894-17.708m8.803 13.76c6.285-6.456 5.22-13.662-2.69-16.878-2.356 4.563-1.05 9.699-2.212 14.45-.913 3.732.818 5.01 4.902 2.429zM102.516 163.098c-3.153-8.638-.649-15.459 5.812-20.857 5.579-4.661 11.885-4.771 18.224-1.505 6.224 3.206 9.43 8.614 9.173 15.432-.269 7.162-3.976 12.66-10.623 15.699-6.178 2.823-12.021 1.78-17.34-2.331-2.13-1.647-3.865-3.66-5.246-6.438m14.552 3.466c7.105.132 11.757-3.427 12.426-9.508.538-4.878-4.37-10.73-9.765-11.643-5.667-.959-10.753 2.684-12.094 8.66-1.101 4.91 1.997 9.304 9.433 12.491zM357.586 363.393c-1.708-2.07-3.208-3.848-4.664-5.663-1.262-1.574-1.177-2.94.56-4.214 1.612-1.182 3.075-2.07 4.712-.098 6.348 7.644 12.71 15.277 19.045 22.888-1.776 3.126-3.805 4.576-6.755 3.155-1.33 2.32-2.272 4.49-3.67 6.311-6.287 8.2-15.213 8.602-22.106.977-3.454-3.82-6.648-7.873-9.981-11.802-1.634-1.926-2.848-3.696-.13-5.837 2.538-2 3.854-.394 5.303 1.352 2.972 3.58 5.9 7.202 8.97 10.697 3.8 4.325 7.81 4.923 11.794 1.943 4.389-3.282 5.345-7.985 2.326-12.734-1.507-2.372-3.437-4.476-5.404-6.975zM399.54 309.053c-7.255-.205-10.922-3.78-10.795-10.47.11-5.832 2.27-11.028 5.864-15.592 1.222-1.552 2.497-3.367 4.874-1.395 2.062 1.712 1.639 3.234.101 5.062-1.938 2.305-3.379 4.951-4.137 7.894-.651 2.53-2.006 5.54 1.427 6.919 3.17 1.273 4.257-1.673 5.493-3.784 1.008-1.72 1.828-3.55 2.82-5.28 2.904-5.064 6.904-6.922 11.536-5.422 3.929 1.272 6.862 5.896 6.41 10.816-.446 4.872-2.162 9.38-5.14 13.328-1.181 1.568-2.511 2.838-4.512 1.076-1.607-1.415-2.037-2.892-.485-4.715 2.094-2.458 3.42-5.316 3.687-8.567.165-2.007.326-4.216-1.983-5.164-2.482-1.02-3.64 1.01-4.706 2.648-1.356 2.086-2.487 4.32-3.713 6.49-1.505 2.666-3.375 4.948-6.742 6.156zM100.408 245.498c-9.401 3.391-18.432 6.654-27.557 9.951-2.179-4.542-.775-6.713 3.166-8.054 6.886-2.344 13.695-4.915 21.522-7.747-7.224-3.829-13.461-7.287-19.842-10.457-3.347-1.662-4.948-3.756-3.49-7.536 2.05-.95 3.507.572 5.02 1.33 7.446 3.73 14.834 7.576 22.218 11.427 2.297 1.198 4.939 1.949 4.831 5.544-.114 3.814-2.79 4.51-5.868 5.542zM320.776 123.903c-3.03 2.933-5.455 2.59-7.621-.43.252-2.04 1.939-2.749 3.166-3.773 13.14-10.971 26.339-21.872 39.46-32.867 2.949-2.471 5.569-3.633 8.511.941-14.438 11.986-28.838 23.94-43.516 36.129zM317.695 91.786c1.99-4.435 3.942-8.475 5.677-12.607 1.072-2.55 2.318-3.785 5.252-2.426 2.743 1.27 2.532 2.874 1.477 5.185-4.896 10.723-9.693 21.491-14.494 32.257-1.019 2.285-1.944 4.202-5.122 2.713-3.04-1.425-2.51-3.299-1.434-5.658 2.894-6.344 5.684-12.736 8.644-19.464zM104.07 183.054c-9.182-4.378-18.02-8.602-26.735-12.768 1.134-6.287 1.96-6.77 7.045-4.323 10.951 5.269 21.87 10.607 32.833 15.85 2.348 1.123 4.06 2.187 2.514 5.24-1.512 2.983-3.405 1.807-5.39.868-3.31-1.567-6.615-3.142-10.267-4.867zM205.841 76.585c1.63-.88 2.914-1.685 4.627-1.37 2.093 2.766 2.67 5.104-1.294 7.005-5.157 2.473-5.628 7.016-4.446 11.898.973 4.02 2.29 7.958 3.437 11.937.635 2.205.975 4.236-2.05 5.057-2.757.747-3.834-.397-4.54-2.978-2.184-7.991-4.638-15.909-6.883-23.885-.447-1.588-1.758-3.538.8-4.715 2.126-.977 4.17-1.589 5.325 1.45 1.78-1.59 3.246-2.9 5.024-4.399zM299.833 420.84c-1.166-.919-1.725-2.784-3.257-.786-1.351 1.762-3.275 2.802-5.234 3.735-1.689.805-3.231.907-4.083-1.215-.674-1.681-.953-3.457 1.03-4.285 7.887-3.297 7.173-9.382 5.366-15.895-.889-3.201-1.72-6.418-2.617-9.617-.693-2.472.31-3.655 2.713-4.308 2.491-.677 3.308.569 3.852 2.58 2.297 8.492 4.553 16.996 6.96 25.457 1.233 4.334-1.738 4.17-4.73 4.335zM382.98 315.907c-2.085-2.31-.706-4.008.544-5.502 1.286-1.536 2.737-.36 4.04.26 7.486 3.559 14.95 7.164 22.445 10.703 2.351 1.11 3.991 2.3 2.443 5.293-1.52 2.94-3.394 1.766-5.381.816-7.927-3.788-15.861-7.56-24.092-11.57zM262.215 401.264c-2.09 2.312-4.258 2.664-6.445 1.065-1.596-1.166-2.202-2.908-1.41-4.869.947-2.347 2.808-3.425 5.183-2.714 3.062.916 4.18 3.069 2.672 6.518zM236.4 100.682c-.077-3.412 1.468-4.963 4.476-4.993 2.362-.024 3.67 1.39 4.117 3.53.472 2.257-.627 3.992-2.674 4.725-2.749.984-4.847.028-5.92-3.262zM424.818 332.395c-1.83 2.592-3.847 3.165-6.094 1.34-1.52-1.237-2.204-2.909-1.221-4.848 1.007-1.989 2.66-3.081 4.852-2.406 2.725.84 3.266 2.989 2.463 5.914z" />
-  </svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="496"
+        height="496"
+        viewBox="0 0 496 496"
+        xmlSpace="preserve"
+        className={`w-full h-auto ${className}`}
+        {...rest}
+    >
+        <path d="M 266.09,433.08
+           C 264.85,433.59 262.79,436.07 262.42,437.54
+             261.96,439.28 263.02,442.04 264.58,443.37
+             265.73,444.33 266.46,444.56 268.48,444.56
+             270.69,444.56 271.19,444.38 272.66,443.00
+             274.27,441.53 274.36,441.30 274.32,438.78
+             274.27,436.25 274.13,435.97 272.39,434.37
+             270.92,432.94 270.18,432.62 268.80,432.67
+             267.84,432.67 266.65,432.85 266.09,433.08 Z
+           M 308.62,424.17
+           C 307.75,424.49 306.14,425.00 305.09,425.27
+             303.71,425.60 303.11,426.01 303.11,426.56
+             303.11,427.39 304.26,431.38 304.90,432.85
+             305.13,433.36 306.10,436.39 307.01,439.60
+             307.01,439.60 308.76,445.44 308.76,445.44
+             308.76,445.44 307.93,447.64 307.93,447.64
+             306.83,450.67 305.22,452.23 302.10,453.38
+             300.63,453.89 299.44,454.39 299.44,454.48
+             299.44,454.57 299.71,455.31 300.08,456.14
+             300.45,456.96 301.00,458.62 301.27,459.81
+             301.60,461.00 302.10,462.06 302.42,462.20
+             303.52,462.61 307.52,460.32 309.45,458.11
+             310.51,456.92 311.38,455.72 311.38,455.54
+             311.38,454.53 312.30,455.31 312.80,456.73
+             313.12,457.61 313.67,458.34 313.95,458.34
+             315.33,458.34 321.94,455.91 321.94,455.40
+             321.94,455.13 321.34,452.92 320.56,450.53
+             319.83,448.15 318.77,444.70 318.22,442.96
+             317.67,441.16 316.98,438.91 316.66,437.90
+             315.51,434.55 313.31,427.39 312.76,425.37
+             312.20,423.21 311.56,423.02 308.62,424.17 Z
+           M 179.43,426.51
+           C 178.33,428.21 174.33,434.51 170.61,440.43
+             166.85,446.35 162.16,453.75 160.19,456.87
+             158.21,459.99 156.61,462.61 156.61,462.75
+             156.61,463.07 158.63,463.76 162.16,464.72
+             165.06,465.51 165.33,465.51 165.93,464.82
+             166.99,463.48 169.01,460.36 169.01,459.99
+             169.01,459.76 169.65,458.85 170.39,457.88
+             171.17,456.92 171.76,456.00 171.76,455.86
+             171.76,455.68 172.18,454.99 172.64,454.30
+             173.09,453.61 174.47,451.50 175.67,449.61
+             183.75,436.85 183.34,437.40 183.84,438.64
+             184.03,439.24 184.39,444.29 184.62,449.84
+             184.85,455.40 185.31,462.38 185.63,465.37
+             186.14,470.60 186.18,470.79 187.33,471.02
+             187.97,471.15 189.44,471.57 190.55,471.93
+             194.04,473.04 195.00,472.81 196.61,470.65
+             197.39,469.55 198.22,468.26 198.45,467.76
+             198.68,467.25 200.28,464.68 202.03,462.01
+             203.82,459.35 206.48,455.22 208.00,452.83
+             209.51,450.44 211.26,447.78 211.90,446.95
+             211.90,446.95 213.05,445.39 213.05,445.39
+             213.05,445.39 213.51,447.18 213.51,447.18
+             213.79,448.15 214.01,451.31 214.01,454.21
+             214.06,457.10 214.29,461.74 214.52,464.54
+             214.80,467.30 215.16,471.52 215.30,473.91
+             215.30,473.91 215.62,478.23 215.62,478.23
+             215.62,478.23 219.76,479.28 219.76,479.28
+             225.77,480.84 225.63,480.84 225.36,477.95
+             225.22,476.67 224.90,471.93 224.62,467.53
+             224.35,463.12 223.93,457.93 223.71,456.04
+             223.48,454.16 223.11,448.93 222.97,444.43
+             222.56,433.63 222.65,433.91 219.25,433.13
+             217.78,432.81 215.44,432.16 214.06,431.80
+             212.59,431.38 211.49,431.24 211.40,431.52
+             211.31,431.75 209.74,434.23 207.91,437.03
+             206.12,439.83 203.41,443.97 201.98,446.22
+             194.17,458.39 194.36,458.16 194.08,456.92
+             193.95,456.32 193.62,452.19 193.35,447.78
+             193.03,443.37 192.66,437.26 192.43,434.23
+             192.20,431.20 192.02,428.17 192.02,427.48
+             191.97,426.15 191.69,426.01 185.08,424.45
+             183.93,424.17 182.65,423.80 182.23,423.67
+             181.64,423.44 180.99,424.08 179.43,426.51 Z
+           M 336.87,412.41
+           C 333.56,412.92 327.91,415.63 325.34,417.97
+             322.95,420.22 320.56,423.62 320.56,424.91
+             320.56,426.28 326.03,428.53 327.27,427.66
+             327.54,427.48 328.14,426.70 328.55,425.87
+             329.84,423.30 335.49,420.22 338.84,420.22
+             341.28,420.22 345.36,422.29 345.36,423.48
+             345.36,423.71 340.36,426.38 334.25,429.45
+             328.09,432.53 322.95,435.24 322.77,435.52
+             322.35,436.20 324.28,439.88 326.44,442.31
+             330.76,447.18 337.83,449.02 343.99,446.91
+             351.56,444.29 356.20,439.14 357.44,431.98
+             358.64,424.81 354.04,416.50 347.20,413.43
+             344.77,412.37 340.13,411.91 336.87,412.41 Z
+           M 348.85,430.51
+           C 349.77,435.61 343.94,441.03 338.43,440.15
+             336.55,439.83 332.64,436.89 333.28,436.25
+             333.88,435.65 347.38,428.95 347.98,428.95
+             348.30,428.95 348.67,429.64 348.85,430.51 Z
+           M 138.83,405.39
+           C 138.05,405.66 138.10,406.86 139.02,410.12
+             139.02,410.12 139.75,412.87 139.75,412.87
+             139.75,412.87 141.91,412.87 141.91,412.87
+             148.43,412.87 154.27,417.65 154.31,422.98
+             154.31,425.83 153.90,425.92 150.41,423.85
+             148.62,422.84 146.18,421.42 144.90,420.68
+             143.66,419.99 140.21,418.02 137.32,416.36
+             134.43,414.71 131.72,413.38 131.35,413.47
+             130.98,413.52 129.92,415.03 129.05,416.78
+             124.46,426.01 128.45,435.56 138.93,440.61
+             140.17,441.21 142.14,441.53 145.03,441.72
+             151.00,441.99 153.90,440.93 157.99,436.80
+             164.37,430.33 165.29,422.20 160.47,414.94
+             156.75,409.29 148.94,405.02 142.42,405.11
+             140.76,405.11 139.11,405.25 138.83,405.39 Z
+           M 142.83,425.96
+           C 146.09,427.85 148.94,429.41 149.17,429.41
+             149.40,429.41 149.95,429.77 150.36,430.28
+             151.10,431.11 151.05,431.20 149.49,432.53
+             143.66,437.31 134.10,431.34 135.71,423.90
+             135.89,423.16 136.22,422.52 136.49,422.52
+             136.72,422.52 139.57,424.08 142.83,425.96 Z
+           M 105.12,380.96
+           C 99.06,383.16 94.33,388.07 92.59,394.04
+             91.21,398.68 91.99,403.28 94.97,407.78
+             97.59,411.68 100.03,413.20 106.96,415.12
+             107.97,415.40 107.74,415.77 102.92,421.23
+             100.12,424.45 97.82,427.25 97.82,427.48
+             97.82,427.71 99.34,429.22 101.22,430.92
+             101.22,430.92 104.57,433.95 104.57,433.95
+             104.57,433.95 106.41,432.03 106.41,432.03
+             107.42,430.97 110.45,427.52 113.21,424.36
+             115.96,421.19 119.27,417.47 120.60,416.09
+             121.89,414.71 124.28,412.00 125.88,410.12
+             127.44,408.24 129.97,405.43 131.39,403.92
+             132.86,402.40 134.47,400.57 135.07,399.88
+             135.07,399.88 136.08,398.59 136.08,398.59
+             136.08,398.59 132.91,395.65 132.91,395.65
+             131.16,394.04 129.60,392.71 129.42,392.67
+             129.19,392.67 128.64,393.08 128.09,393.63
+             126.94,394.78 126.71,394.55 125.70,391.20
+             124.83,388.35 121.84,384.58 118.99,382.84
+             115.09,380.40 108.89,379.53 105.12,380.96 Z
+           M 114.72,390.14
+           C 116.97,391.11 118.44,392.53 119.45,394.73
+             121.15,398.36 120.37,401.71 117.11,405.25
+             114.54,408.01 111.23,409.20 108.29,408.33
+             105.58,407.50 103.56,405.80 102.37,403.37
+             98.83,396.07 107.28,387.06 114.72,390.14 Z
+           M 365.80,376.41
+           C 364.01,377.88 362.63,379.26 362.72,379.67
+             362.81,380.04 364.79,382.84 367.18,385.92
+             370.16,389.77 371.31,391.61 370.94,391.84
+             370.62,392.02 369.57,392.21 368.51,392.21
+             364.42,392.21 358.68,396.52 356.25,401.35
+             355.15,403.60 355.01,404.38 355.01,408.51
+             355.01,412.78 355.15,413.43 356.39,415.95
+             360.15,423.53 368.23,428.08 375.12,426.61
+             381.87,425.14 387.34,420.31 388.72,414.53
+             388.72,414.53 389.04,413.20 389.04,413.20
+             389.04,413.20 390.09,414.21 390.09,414.21
+             390.65,414.71 391.43,415.17 391.79,415.17
+             392.57,415.17 397.90,410.72 398.09,409.89
+             398.18,409.57 397.35,408.24 396.25,406.86
+             395.15,405.53 391.93,401.44 389.04,397.76
+             386.15,394.04 383.16,390.32 382.38,389.41
+             381.60,388.49 378.52,384.63 375.54,380.82
+             372.55,376.96 369.84,373.84 369.57,373.84
+             369.24,373.84 367.59,374.99 365.80,376.41 Z
+           M 376.68,399.37
+           C 378.61,400.38 381.19,403.14 382.15,405.25
+             383.48,408.14 383.30,410.99 381.69,413.20
+             379.58,416.13 377.74,417.19 374.43,417.37
+             372.00,417.56 371.27,417.42 369.61,416.41
+             364.88,413.65 362.86,407.68 365.07,403.28
+             366.08,401.35 368.92,399.19 371.17,398.64
+             372.92,398.22 374.94,398.50 376.68,399.37 Z
+           M 400.38,360.06
+           C 394.87,361.71 389.27,367.50 387.11,373.75
+             384.12,382.38 389.13,392.21 398.27,395.65
+             401.62,396.89 407.68,396.48 411.27,394.73
+             414.99,392.99 419.21,388.63 421.23,384.54
+             422.66,381.64 422.75,381.09 422.75,376.82
+             422.75,372.55 422.66,372.00 421.23,369.15
+             419.44,365.52 416.64,362.81 412.64,360.93
+             410.21,359.74 409.38,359.60 405.76,359.65
+             403.51,359.65 401.07,359.83 400.38,360.06 Z
+           M 409.20,370.12
+           C 412.87,372.37 414.80,376.45 414.07,380.40
+             413.47,383.62 408.69,387.57 405.43,387.61
+             401.99,387.61 396.43,383.39 395.38,379.90
+             395.05,378.75 394.96,377.24 395.19,375.90
+             395.42,374.07 395.93,373.29 397.90,371.27
+             399.37,369.80 400.84,368.79 401.67,368.65
+             404.10,368.23 407.09,368.83 409.20,370.12 Z
+           M 407.59,344.26
+           C 406.40,346.28 405.62,348.07 405.76,348.49
+             405.89,348.95 406.95,349.82 408.19,350.51
+             409.38,351.20 411.17,352.30 412.19,352.94
+             413.20,353.54 414.67,354.46 415.45,354.87
+             416.27,355.33 418.11,356.43 419.58,357.35
+             430.23,364.01 444.10,372.32 445.02,372.64
+             445.53,372.83 446.40,371.77 448.01,369.20
+             449.29,367.13 450.35,365.29 450.44,365.11
+             450.49,364.93 447.92,363.18 444.70,361.25
+             441.49,359.32 435.33,355.56 431.01,352.94
+             417.70,344.86 410.76,340.77 410.21,340.77
+             409.93,340.77 408.79,342.33 407.59,344.26 Z
+           M 60.58,328.55
+           C 54.28,329.93 48.04,334.89 45.19,340.72
+             43.77,343.66 43.49,344.77 43.31,348.12
+             42.89,354.82 44.00,358.31 49.19,367.18
+             50.52,369.47 52.03,372.14 52.59,373.15
+             53.73,375.21 55.98,379.16 56.76,380.45
+             57.22,381.19 57.91,380.91 65.03,376.78
+             69.30,374.34 73.30,372.00 73.94,371.59
+             74.58,371.17 75.59,370.58 76.24,370.30
+             76.88,369.98 78.53,369.06 79.96,368.23
+             81.33,367.41 85.56,364.97 89.23,362.86
+             89.23,362.86 95.99,358.96 95.99,358.96
+             95.99,358.96 94.79,356.89 94.79,356.89
+             94.10,355.74 93.05,353.86 92.40,352.71
+             88.36,345.45 84.23,338.80 82.53,336.59
+             79.31,332.55 73.99,329.29 69.03,328.42
+             65.81,327.82 63.88,327.82 60.58,328.55 Z
+           M 71.83,339.16
+           C 74.86,340.59 76.01,341.64 78.35,345.13
+             80.28,347.93 83.59,353.72 83.59,354.23
+             83.59,354.36 82.02,355.37 80.05,356.48
+             78.12,357.58 75.59,359.00 74.45,359.69
+             73.30,360.33 71.41,361.39 70.27,362.03
+             69.12,362.68 66.23,364.33 63.88,365.71
+             59.93,368.05 59.47,368.19 58.97,367.50
+             58.00,366.12 54.19,359.55 54.19,359.23
+             54.19,359.09 53.83,358.59 53.41,358.08
+             52.72,357.35 52.59,356.34 52.59,352.07
+             52.59,347.06 52.63,346.92 54.05,344.86
+             58.23,338.84 65.95,336.41 71.83,339.16 Z
+           M 431.11,309.82
+           C 425.73,311.47 422.20,314.78 419.17,321.02
+             417.42,324.60 417.24,325.29 417.10,329.29
+             416.82,336.27 417.70,337.23 422.52,335.31
+             422.52,335.31 424.59,334.43 424.59,334.43
+             424.59,334.43 424.63,330.85 424.63,330.85
+             424.68,327.91 424.91,326.76 425.87,324.88
+             427.80,321.11 429.18,319.74 431.98,318.91
+             435.79,317.81 436.71,318.63 435.10,321.71
+             434.73,322.45 433.59,325.06 432.58,327.45
+             431.57,329.84 430.56,332.23 430.33,332.73
+             428.63,336.77 427.85,338.52 427.07,340.27
+             425.92,342.75 426.24,343.16 430.00,344.40
+             435.10,346.14 441.16,345.50 444.79,342.84
+             451.50,337.92 454.67,329.61 452.65,322.17
+             450.99,315.97 446.95,311.97 440.34,309.95
+             436.94,308.94 434.14,308.90 431.11,309.82 Z
+           M 443.51,322.49
+           C 448.33,327.50 444.65,336.59 437.72,336.77
+             436.48,336.82 435.33,336.73 435.15,336.59
+             434.92,336.36 440.25,322.86 441.16,321.44
+             441.58,320.75 442.04,320.98 443.51,322.49 Z
+           M 57.68,291.68
+           C 56.76,293.19 56.03,294.61 56.03,294.80
+             56.03,294.98 56.99,296.13 58.23,297.42
+             60.53,299.80 62.00,303.29 62.00,306.46
+             62.00,308.62 60.44,312.02 58.88,313.26
+             58.88,313.26 57.68,314.18 57.68,314.18
+             57.68,314.18 56.99,312.89 56.99,312.89
+             56.63,312.20 55.98,310.28 55.52,308.62
+             55.11,306.97 54.38,304.49 53.96,303.11
+             53.55,301.73 52.91,299.57 52.54,298.33
+             52.17,297.05 51.71,295.85 51.44,295.58
+             51.21,295.35 50.98,294.66 50.98,294.06
+             50.98,293.47 50.66,292.27 50.33,291.40
+             49.78,290.07 49.42,289.79 48.31,289.79
+             44.27,289.79 37.57,295.17 35.78,299.80
+             34.31,303.57 34.12,307.75 35.27,311.42
+             36.65,315.79 37.52,317.30 40.60,320.38
+             42.94,322.68 43.95,323.32 46.48,324.15
+             56.08,327.27 66.04,322.54 68.93,313.58
+             71.00,307.15 69.21,298.24 64.85,293.05
+             63.19,291.08 60.44,288.87 59.70,288.87
+             59.52,288.87 58.60,290.11 57.68,291.68 Z
+           M 47.58,300.68
+           C 47.90,301.14 48.22,302.05 48.22,302.74
+             48.22,303.43 48.50,304.81 48.87,305.73
+             49.42,307.15 50.84,311.84 51.71,315.10
+             51.99,316.06 50.56,316.43 48.45,315.97
+             44.87,315.14 41.79,311.10 41.79,307.20
+             41.79,305.04 43.45,301.78 45.10,300.59
+             46.43,299.71 46.84,299.71 47.58,300.68 Z
+           M 462.47,276.06
+           C 460.09,276.52 456.37,277.21 454.21,277.58
+             452.05,277.99 448.65,278.63 446.63,279.00
+             444.61,279.41 440.75,280.15 438.09,280.61
+             432.76,281.53 431.24,282.08 431.24,283.18
+             431.24,283.59 430.83,285.71 430.28,287.82
+             429.77,289.98 429.41,291.77 429.50,291.81
+             433.36,294.61 445.02,302.70 446.17,303.39
+             447.04,303.89 448.24,304.76 448.79,305.27
+             450.26,306.56 459.72,312.94 459.90,312.71
+             460.22,312.30 461.56,306.00 461.56,304.95
+             461.56,304.08 460.96,303.39 459.26,302.19
+             457.97,301.32 455.54,299.62 453.84,298.43
+             452.14,297.19 449.80,295.53 448.56,294.75
+             447.36,293.93 445.25,292.36 443.87,291.35
+             440.84,289.06 441.07,288.69 445.71,288.23
+             447.50,288.05 450.26,287.63 451.91,287.27
+             455.59,286.49 460.32,285.61 462.47,285.34
+             465.92,284.92 466.10,284.83 466.42,283.00
+             466.56,282.08 466.97,280.29 467.34,279.05
+             468.12,276.24 468.17,275.10 467.43,275.14
+             467.11,275.19 464.86,275.60 462.47,276.06 Z
+           M 25.49,253.42
+           C 25.67,254.34 25.99,256.40 26.13,258.01
+             26.45,260.95 27.00,261.78 28.57,261.78
+             28.98,261.78 31.60,262.51 34.31,263.39
+             37.02,264.26 39.73,264.99 40.28,264.99
+             40.83,264.99 41.38,265.18 41.52,265.41
+             41.70,265.64 42.89,266.05 44.23,266.32
+             45.51,266.65 47.49,267.20 48.59,267.61
+             50.11,268.16 50.43,268.48 50.01,268.94
+             49.74,269.26 49.14,269.68 48.68,269.81
+             48.27,269.95 45.65,271.33 42.89,272.85
+             40.14,274.41 37.48,275.83 36.97,276.06
+             36.47,276.29 34.40,277.39 32.38,278.49
+             28.80,280.42 28.70,280.52 28.84,282.03
+             28.93,282.90 29.07,284.92 29.21,286.58
+             29.35,288.23 29.62,289.75 29.85,289.93
+             30.04,290.16 31.92,289.33 34.03,288.14
+             36.14,286.95 39.04,285.34 40.41,284.60
+             41.79,283.87 43.26,282.95 43.68,282.63
+             44.04,282.26 44.73,281.99 45.10,281.99
+             45.51,281.99 46.06,281.66 46.39,281.30
+             46.71,280.93 47.12,280.61 47.35,280.61
+             47.90,280.61 60.21,273.72 61.22,272.85
+             61.95,272.20 62.05,271.65 61.77,268.44
+             61.40,263.57 60.90,262.37 59.11,261.96
+             58.33,261.82 57.36,261.50 56.95,261.27
+             56.58,261.09 53.69,260.17 50.52,259.25
+             39.77,256.17 38.35,255.72 36.74,255.16
+             35.87,254.80 34.35,254.43 33.34,254.25
+             32.38,254.06 31.23,253.74 30.82,253.51
+             30.40,253.28 28.98,252.78 27.65,252.41
+             27.65,252.41 25.17,251.77 25.17,251.77
+             25.17,251.77 25.49,253.42 25.49,253.42 Z
+           M 445.85,235.14
+           C 437.95,238.40 434.32,244.37 434.28,253.97
+             434.28,258.98 435.42,262.79 437.77,265.64
+             439.28,267.47 439.10,267.52 442.68,264.44
+             442.68,264.44 444.65,262.74 444.65,262.74
+             444.65,262.74 443.37,260.12 443.37,260.12
+             441.12,255.49 441.53,250.02 444.43,246.58
+             445.62,245.20 448.60,243.64 449.11,244.14
+             449.48,244.51 449.43,249.97 448.97,260.49
+             448.97,260.49 448.56,269.59 448.56,269.59
+             448.56,269.59 450.12,269.63 450.12,269.63
+             457.93,269.91 460.91,268.90 464.91,264.53
+             468.12,261.09 469.36,257.69 469.36,252.36
+             469.36,244.60 465.96,238.95 459.44,235.78
+             457.15,234.68 456.09,234.45 452.37,234.36
+             448.88,234.27 447.59,234.41 445.85,235.14 Z
+           M 459.40,246.03
+           C 461.37,247.91 462.01,249.52 462.01,252.36
+             462.01,256.68 459.72,260.03 456.41,260.63
+             454.85,260.95 454.67,260.86 454.39,259.76
+             454.25,259.11 454.35,255.58 454.62,251.95
+             454.90,248.32 455.13,245.01 455.13,244.65
+             455.13,243.59 457.70,244.42 459.40,246.03 Z
+           M 37.98,213.56
+           C 33.20,215.07 29.39,218.79 27.51,223.89
+             26.73,226.00 26.50,227.56 26.50,231.01
+             26.55,234.96 26.68,235.69 28.01,238.49
+             28.80,240.19 29.99,242.26 30.68,243.04
+             33.39,246.25 39.50,248.92 44.18,248.92
+             51.62,248.92 58.74,243.22 60.71,235.69
+             61.54,232.52 61.95,228.48 61.72,226.41
+             61.13,221.82 58.92,216.82 57.45,216.77
+             56.95,216.77 53.78,218.88 51.48,220.77
+             51.39,220.81 51.62,221.27 51.99,221.68
+             52.95,222.79 54.19,226.55 54.19,228.34
+             54.19,229.17 53.87,231.01 53.46,232.48
+             52.54,235.65 49.55,238.81 47.44,238.81
+             47.44,238.81 46.16,238.81 46.16,238.81
+             46.16,238.81 46.25,235.00 46.25,235.00
+             46.34,232.94 46.61,229.58 46.89,227.56
+             47.72,221.09 48.08,213.37 47.58,213.00
+             46.61,212.36 40.64,212.68 37.98,213.56 Z
+           M 41.65,224.90
+           C 41.29,230.09 40.37,238.54 40.14,238.77
+             39.54,239.41 35.87,236.79 34.90,235.00
+             33.39,232.34 33.39,228.16 34.86,225.77
+             36.14,223.71 38.81,221.87 40.55,221.87
+             40.55,221.87 41.88,221.82 41.88,221.82
+             41.88,221.82 41.65,224.90 41.65,224.90 Z
+           M 19.98,191.14
+           C 19.52,192.43 18.37,197.76 18.37,198.68
+             18.37,199.41 18.88,199.73 21.03,200.37
+             24.39,201.34 28.98,202.44 31.92,202.99
+             33.20,203.22 35.96,203.82 38.12,204.37
+             40.28,204.88 43.35,205.56 45.01,205.93
+             46.66,206.30 48.82,206.80 49.83,207.08
+             50.84,207.36 52.40,207.59 53.32,207.59
+             54.19,207.59 55.16,207.81 55.43,208.09
+             55.66,208.32 57.32,208.87 59.06,209.28
+             60.81,209.65 62.69,210.07 63.19,210.20
+             64.07,210.39 64.25,210.16 64.71,207.95
+             64.99,206.62 65.44,204.55 65.77,203.36
+             66.04,202.17 66.18,201.02 66.00,200.88
+             65.81,200.70 64.30,200.28 62.60,199.96
+             60.85,199.64 58.23,199.09 56.72,198.72
+             52.31,197.62 45.47,196.06 42.25,195.37
+             40.60,195.05 37.93,194.45 36.28,194.04
+             34.63,193.62 31.73,193.03 29.85,192.61
+             27.97,192.25 25.40,191.65 24.16,191.28
+             21.45,190.45 20.25,190.41 19.98,191.14 Z
+           M 467.53,180.95
+           C 466.88,181.18 464.13,181.77 461.33,182.33
+             458.57,182.83 455.03,183.57 453.52,183.93
+             452.00,184.25 449.43,184.81 447.78,185.08
+             446.12,185.40 443.46,185.91 441.81,186.23
+             440.15,186.60 437.67,187.10 436.30,187.33
+             434.92,187.61 432.16,188.20 430.23,188.62
+             427.02,189.35 426.70,189.54 426.97,190.36
+             427.29,191.37 428.76,198.63 429.41,202.44
+             430.37,208.37 432.12,214.38 433.82,217.78
+             435.24,220.58 439.51,225.17 442.04,226.55
+             445.57,228.57 448.15,229.17 452.83,229.17
+             459.76,229.17 465.00,227.06 469.27,222.60
+             471.93,219.76 473.82,216.27 474.51,212.91
+             475.29,209.01 475.47,204.74 474.92,202.30
+             474.64,201.02 474.00,197.62 473.45,194.73
+             472.95,191.83 472.21,188.39 471.84,187.15
+             471.52,185.86 471.11,183.89 470.97,182.65
+             470.65,180.31 470.19,180.08 467.53,180.95 Z
+           M 465.09,194.91
+           C 465.37,196.43 465.83,198.12 466.10,198.72
+             466.38,199.32 466.61,202.07 466.61,204.78
+             466.61,209.19 466.47,209.97 465.51,211.76
+             464.17,214.11 462.11,216.17 459.49,217.69
+             457.88,218.65 457.05,218.79 452.60,218.79
+             447.87,218.84 447.41,218.75 445.71,217.64
+             442.68,215.62 440.61,212.96 439.56,209.79
+             438.36,206.16 436.85,197.71 437.35,197.39
+             437.58,197.25 438.96,196.98 440.38,196.79
+             441.81,196.61 443.64,196.20 444.52,195.83
+             445.34,195.46 446.81,195.19 447.73,195.19
+             448.65,195.19 450.30,194.96 451.45,194.68
+             453.75,194.08 458.52,193.03 461.33,192.48
+             464.31,191.83 464.49,191.97 465.09,194.91 Z
+           M 52.31,155.14
+           C 45.74,157.53 41.79,162.53 39.77,171.12
+             39.04,174.15 39.04,174.52 39.77,177.55
+             41.06,182.79 41.29,183.24 44.69,186.87
+             47.30,189.67 52.86,191.97 57.13,191.97
+             59.52,191.97 63.88,190.73 64.89,189.72
+             65.17,189.44 65.63,189.21 65.90,189.21
+             67.47,189.21 71.60,184.30 73.44,180.26
+             75.04,176.77 75.69,170.84 74.81,167.68
+             72.61,159.50 65.77,154.27 57.41,154.36
+             55.75,154.36 53.46,154.72 52.31,155.14 Z
+           M 61.54,165.20
+           C 62.92,165.93 64.66,167.26 65.40,168.23
+             66.68,169.83 66.82,170.34 66.82,173.05
+             66.82,175.57 66.59,176.45 65.63,177.96
+             63.93,180.53 63.01,181.27 60.53,181.91
+             56.53,183.01 51.67,181.13 49.09,177.60
+             47.95,176.03 47.76,175.35 47.76,172.96
+             47.81,165.65 54.74,161.75 61.54,165.20 Z
+           M 419.90,129.97
+           C 412.78,132.45 407.82,139.11 407.82,146.18
+             407.82,152.20 412.51,161.34 417.05,164.23
+             419.53,165.79 422.52,166.76 422.75,166.11
+             424.95,159.59 424.86,160.10 423.90,159.36
+             423.44,159.00 422.33,158.17 421.51,157.57
+             419.17,155.87 417.19,152.93 416.64,150.32
+             415.95,147.15 416.69,143.38 418.20,142.23
+             419.26,141.45 419.30,141.45 420.45,143.29
+             421.09,144.30 421.60,145.22 421.60,145.36
+             421.60,145.59 427.25,155.51 428.53,157.53
+             428.76,157.89 429.13,158.67 429.41,159.23
+             429.64,159.78 430.37,161.06 431.01,162.12
+             432.16,163.96 432.21,163.96 433.54,163.27
+             436.71,161.61 439.14,159.59 440.61,157.39
+             442.91,153.90 443.19,152.93 443.19,147.74
+             443.19,142.60 442.45,140.30 439.51,136.22
+             435.19,130.25 426.84,127.58 419.90,129.97 Z
+           M 431.57,138.88
+           C 435.75,141.73 437.08,146.87 434.64,150.96
+             433.36,153.21 432.48,153.35 431.43,151.56
+             431.11,150.91 429.50,148.11 427.89,145.31
+             423.53,137.73 423.53,137.78 427.39,137.78
+             429.32,137.78 430.33,138.05 431.57,138.88 Z
+           M 73.21,116.15
+           C 66.18,118.17 60.07,126.16 60.76,132.36
+             61.08,134.75 60.90,134.93 59.34,133.83
+             58.79,133.46 58.10,133.28 57.87,133.41
+             57.59,133.60 56.35,135.21 55.11,137.09
+             53.04,140.17 52.91,140.49 53.64,141.08
+             54.28,141.68 63.42,147.65 65.77,149.03
+             66.18,149.26 68.34,150.73 70.59,152.20
+             72.79,153.71 76.70,156.29 79.22,157.94
+             81.75,159.59 85.47,162.03 87.49,163.36
+             89.51,164.69 91.39,165.79 91.71,165.79
+             92.17,165.79 96.17,160.19 96.72,158.67
+             97.00,157.99 96.44,157.57 89.14,152.80
+             86.75,151.23 84.73,149.72 84.64,149.44
+             84.55,149.17 85.24,148.71 86.20,148.43
+             91.25,146.92 95.99,139.43 95.99,132.96
+             95.99,125.42 89.33,117.89 81.01,115.96
+             77.34,115.14 76.74,115.14 73.21,116.15 Z
+           M 81.15,126.39
+           C 85.05,128.59 86.80,131.26 86.80,135.02
+             86.80,139.57 84.14,142.74 79.54,143.79
+             76.28,144.53 71.00,141.87 68.89,138.47
+             66.36,134.33 68.38,127.81 72.79,125.84
+             74.63,125.01 79.27,125.33 81.15,126.39 Z
+           M 413.29,102.74
+           C 412.60,103.20 410.03,105.22 407.55,107.24
+             405.07,109.26 401.99,111.74 400.66,112.75
+             396.29,116.15 390.23,121.01 389.08,122.03
+             387.98,123.04 387.98,123.08 388.81,124.14
+             389.31,124.73 390.51,126.30 391.52,127.63
+             392.48,128.91 393.63,129.97 394.04,129.97
+             394.41,129.92 396.39,128.59 398.41,126.99
+             403.46,122.85 408.33,119.18 409.61,118.49
+             411.17,117.71 414.67,117.75 416.32,118.58
+             417.10,118.99 418.43,120.05 419.30,120.97
+             420.18,121.89 421.19,122.62 421.46,122.62
+             422.52,122.62 427.57,118.44 427.57,117.57
+             427.57,116.24 423.80,113.48 420.45,112.33
+             420.45,112.33 417.42,111.32 417.42,111.32
+             417.42,111.32 418.84,110.08 418.84,110.08
+             420.50,108.61 420.45,108.48 416.92,104.57
+             416.92,104.57 414.48,101.91 414.48,101.91
+             414.48,101.91 413.29,102.74 413.29,102.74 Z
+           M 99.29,85.42
+           C 94.47,86.43 89.19,90.84 86.66,95.94
+             85.28,98.79 85.19,99.20 85.24,103.79
+             85.28,108.06 85.42,108.89 86.48,110.96
+             88.22,114.31 92.31,118.31 95.43,119.68
+             97.78,120.74 98.56,120.83 102.64,120.69
+             106.78,120.56 107.56,120.42 110.22,119.04
+             115.14,116.56 119.36,112.11 121.34,107.24
+             122.35,104.76 122.71,101.91 122.07,101.17
+             121.43,100.35 115.32,100.35 115.09,101.13
+             115.00,101.45 114.68,102.64 114.36,103.75
+             113.53,106.87 108.94,111.28 105.81,112.01
+             103.33,112.61 100.03,112.11 99.38,111.09
+             99.20,110.77 103.01,106.64 108.16,101.50
+             118.26,91.39 117.85,92.27 114.36,89.23
+             110.45,85.88 104.44,84.32 99.29,85.42 Z
+           M 103.65,93.05
+           C 104.39,93.18 105.45,93.64 106.04,94.10
+             106.04,94.10 107.10,94.88 107.10,94.88
+             107.10,94.88 101.04,100.99 101.04,100.99
+             101.04,100.99 94.93,107.05 94.93,107.05
+             94.93,107.05 94.10,105.81 94.10,105.81
+             92.72,103.70 92.59,101.40 93.69,98.92
+             94.97,95.99 95.76,95.16 98.51,93.87
+             100.95,92.72 101.54,92.63 103.65,93.05 Z
+           M 381.46,75.41
+           C 381.37,75.73 380.96,77.20 380.50,78.63
+             379.67,81.43 379.81,82.21 381.14,82.21
+             383.44,82.21 388.95,85.65 390.83,88.27
+             392.57,90.66 392.76,93.83 391.24,95.71
+             391.24,95.71 390.28,96.90 390.28,96.90
+             390.28,96.90 387.02,94.01 387.02,94.01
+             379.72,87.58 378.06,86.71 373.56,86.62
+             370.58,86.57 370.07,86.71 368.33,87.95
+             365.39,90.01 364.10,92.77 364.28,96.44
+             364.42,98.97 364.74,99.84 366.12,102.05
+             367.91,104.76 371.63,107.83 374.25,108.75
+             375.12,109.07 376.68,109.30 377.79,109.30
+             377.79,109.30 379.76,109.30 379.76,109.30
+             379.76,109.30 378.84,110.87 378.84,110.87
+             377.83,112.66 377.83,112.70 381.74,116.19
+             383.25,117.52 384.08,117.98 384.58,117.71
+             384.95,117.52 387.25,115.04 389.73,112.29
+             392.16,109.49 395.33,106.04 396.66,104.57
+             400.38,100.53 401.39,98.19 401.39,93.73
+             401.39,89.19 400.29,86.80 396.48,82.99
+             393.22,79.68 390.00,77.48 386.19,76.01
+             382.98,74.72 381.69,74.58 381.46,75.41 Z
+           M 381.00,96.31
+           C 382.10,97.27 383.67,98.47 384.40,98.97
+             386.37,100.30 386.56,101.36 385.09,102.87
+             382.61,105.49 378.57,105.22 375.40,102.32
+             373.19,100.30 372.60,98.56 373.38,96.26
+             373.93,94.47 374.66,94.15 377.19,94.38
+             378.38,94.47 379.53,95.07 381.00,96.31 Z
+           M 164.60,66.78
+           C 163.82,67.14 162.72,68.02 162.16,68.71
+             160.69,70.59 160.97,74.31 162.76,76.19
+             165.56,79.13 170.29,78.72 172.27,75.41
+             175.44,70.04 170.34,64.30 164.60,66.78 Z
+           M 124.96,62.69
+           C 122.99,64.85 121.24,68.25 121.24,69.95
+             121.24,70.82 121.11,70.77 119.64,69.35
+             119.64,69.35 118.03,67.79 118.03,67.79
+             118.03,67.79 116.65,68.80 116.65,68.80
+             115.87,69.39 114.49,70.36 113.53,71.00
+             110.50,73.07 109.58,71.28 122.30,88.82
+             125.61,93.41 128.87,97.96 130.48,100.26
+             130.66,100.49 131.49,100.21 132.31,99.61
+             136.35,96.77 138.24,95.30 138.24,94.88
+             138.24,94.33 136.63,91.94 132.40,86.20
+             127.17,79.22 126.25,76.83 127.35,73.57
+             128.18,71.23 130.29,68.57 131.72,68.15
+             132.27,68.02 132.73,67.69 132.73,67.47
+             132.73,66.68 128.04,60.62 127.44,60.62
+             127.12,60.62 126.02,61.54 124.96,62.69 Z
+           M 325.89,39.59
+           C 325.75,40.19 325.61,41.47 325.61,42.48
+             325.61,43.49 325.39,45.10 325.11,46.06
+             324.83,47.03 324.37,50.01 324.01,52.72
+             323.13,59.52 322.08,66.82 321.48,69.76
+             320.65,74.17 320.61,74.08 324.83,76.28
+             326.90,77.39 328.83,78.30 329.11,78.30
+             329.43,78.30 331.77,76.42 334.39,74.08
+             342.56,66.87 345.59,64.30 345.96,64.30
+             346.37,64.30 345.96,69.90 345.27,73.02
+             344.86,75.04 343.53,84.64 343.53,85.70
+             343.53,86.02 344.03,86.57 344.63,86.89
+             349.13,89.37 351.20,90.29 351.79,90.11
+             352.53,89.83 361.80,81.79 367.68,76.28
+             369.70,74.35 372.87,71.55 374.66,70.04
+             376.45,68.52 377.97,66.96 377.97,66.59
+             377.97,66.18 376.55,65.12 374.57,64.11
+             374.57,64.11 371.13,62.32 371.13,62.32
+             371.13,62.32 368.46,64.85 368.46,64.85
+             366.99,66.27 364.97,68.11 363.96,68.93
+             362.95,69.81 360.38,72.06 358.22,73.94
+             352.30,79.22 352.67,79.04 352.99,76.42
+             353.12,75.18 353.54,72.61 353.86,70.73
+             354.23,68.84 354.64,65.81 354.82,64.07
+             354.96,62.28 355.42,59.70 355.74,58.33
+             356.75,54.47 356.75,54.47 352.71,52.40
+             352.71,52.40 349.04,50.47 349.04,50.47
+             349.04,50.47 346.65,52.68 346.65,52.68
+             345.32,53.87 344.12,54.97 343.99,55.11
+             343.85,55.25 342.42,56.49 340.77,57.87
+             339.16,59.24 336.27,61.77 334.43,63.47
+             330.94,66.59 329.89,67.05 330.67,64.99
+             330.90,64.34 331.22,62.14 331.36,60.03
+             331.54,57.96 331.91,55.20 332.23,53.96
+             332.60,52.68 333.05,50.20 333.33,48.45
+             333.61,46.66 333.97,44.59 334.11,43.86
+             334.39,42.53 334.25,42.39 330.76,40.51
+             328.74,39.45 326.90,38.58 326.63,38.58
+             326.40,38.58 326.07,39.04 325.89,39.59 Z
+           M 302.97,27.60
+           C 302.51,28.89 302.19,30.40 302.19,31.00
+             302.19,32.65 301.32,33.07 299.02,32.56
+             297.69,32.29 296.82,32.29 296.54,32.56
+             295.81,33.30 294.43,37.66 294.71,38.39
+             294.84,38.76 295.85,39.31 297.00,39.63
+             298.93,40.14 299.02,40.23 298.84,41.56
+             298.52,43.40 297.60,46.84 297.14,47.99
+             296.13,50.29 295.17,54.74 294.98,57.91
+             294.75,62.14 295.63,64.34 298.38,66.45
+             301.50,68.80 303.48,69.49 308.07,69.72
+             308.07,69.72 312.34,69.90 312.34,69.90
+             312.34,69.90 312.07,66.78 312.07,66.78
+             311.65,62.46 311.65,62.46 309.59,62.46
+             305.18,62.46 303.94,60.58 305.09,55.66
+             305.91,52.17 308.48,43.58 308.85,43.26
+             308.99,43.12 310.51,43.49 312.25,44.04
+             314.00,44.64 315.79,45.01 316.25,44.92
+             317.26,44.73 319.37,38.53 318.54,38.03
+             318.27,37.84 317.21,37.57 316.20,37.43
+             315.19,37.29 313.58,36.83 312.66,36.42
+             310.96,35.68 310.92,35.64 311.24,33.80
+             311.38,32.75 311.79,31.37 312.11,30.68
+             313.08,28.80 312.89,28.06 311.29,27.37
+             309.59,26.64 304.90,25.26 304.17,25.26
+             303.94,25.26 303.39,26.32 302.97,27.60 Z
+           M 240.65,26.13
+           C 235.00,27.92 231.51,30.86 229.26,35.73
+             228.16,38.07 228.02,38.90 228.07,43.17
+             228.07,47.21 228.25,48.36 229.17,50.29
+             230.73,53.69 235.23,57.91 238.59,59.15
+             243.73,61.13 250.85,60.94 255.53,58.79
+             258.47,57.36 262.47,53.37 263.84,50.43
+             264.85,48.31 264.99,47.35 264.99,42.94
+             264.99,37.06 264.12,34.58 260.81,31.00
+             256.31,26.09 247.49,23.97 240.65,26.13 Z
+           M 250.16,34.03
+           C 250.85,34.31 251.95,34.95 252.55,35.50
+             253.97,36.83 255.81,40.97 255.81,42.94
+             255.81,44.78 254.29,48.82 253.14,50.01
+             251.77,51.48 248.60,52.81 246.48,52.81
+             243.96,52.81 240.47,50.98 239.27,49.00
+             236.75,44.82 237.16,39.40 240.28,36.01
+             241.29,34.95 242.53,33.94 243.09,33.85
+             245.15,33.43 248.92,33.53 250.16,34.03 Z
+           M 204.60,18.83
+           C 198.40,19.47 193.58,21.40 190.00,24.71
+             186.92,27.56 185.95,29.85 185.95,34.21
+             185.95,36.88 186.14,38.12 186.92,39.54
+             189.44,44.41 193.26,45.93 203.91,46.39
+             213.05,46.75 215.39,47.72 215.39,50.98
+             215.39,53.32 213.28,55.25 209.42,56.44
+             205.47,57.68 199.18,57.73 195.64,56.53
+             194.08,55.98 192.93,55.85 192.66,56.12
+             192.43,56.35 191.88,57.91 191.47,59.61
+             190.73,62.51 190.78,62.73 191.51,63.52
+             193.95,66.13 206.53,66.13 213.79,63.56
+             223.29,60.21 227.56,52.45 224.16,44.73
+             223.20,42.53 221.82,41.15 219.43,39.91
+             216.77,38.53 214.29,38.12 206.12,37.71
+             201.89,37.43 198.03,37.06 197.57,36.79
+             197.07,36.51 196.33,35.59 195.92,34.67
+             195.19,33.20 195.19,32.93 195.87,31.55
+             196.88,29.35 198.58,28.29 202.44,27.33
+             205.75,26.55 209.05,26.55 214.06,27.37
+             215.99,27.69 216.13,27.46 216.77,23.47
+             217.46,19.47 217.00,19.11 210.57,18.69
+             209.05,18.60 206.39,18.65 204.60,18.83 Z
+           M 285.66,16.03
+           C 285.02,16.21 283.87,16.53 283.04,16.72
+             280.10,17.45 276.01,22.55 276.01,25.44
+             276.01,27.69 275.65,28.01 272.80,28.01
+             270.23,28.01 270.14,28.06 269.86,29.44
+             269.72,30.22 269.59,31.78 269.59,32.84
+             269.59,34.95 270.09,35.36 272.98,35.36
+             274.22,35.36 274.27,35.45 274.04,37.06
+             273.90,38.03 273.53,40.87 273.26,43.40
+             272.98,45.93 272.52,48.68 272.25,49.55
+             271.97,50.43 271.56,52.59 271.38,54.38
+             271.15,56.17 270.78,58.51 270.55,59.57
+             270.55,59.57 270.18,61.49 270.18,61.49
+             270.18,61.49 272.75,61.77 272.75,61.77
+             274.18,61.91 276.20,62.28 277.30,62.55
+             278.45,62.83 279.46,62.87 279.69,62.64
+             279.92,62.41 280.29,60.58 280.56,58.56
+             281.43,51.85 282.03,48.04 282.67,44.78
+             283.00,42.99 283.45,40.60 283.59,39.36
+             283.59,39.36 283.87,37.20 283.87,37.20
+             283.87,37.20 285.80,37.20 285.80,37.20
+             286.85,37.20 288.74,37.52 289.98,37.89
+             291.22,38.26 292.32,38.49 292.41,38.39
+             292.55,38.30 292.73,36.65 292.87,34.81
+             293.15,30.86 293.47,31.18 288.55,30.31
+             288.55,30.31 285.20,29.71 285.20,29.71
+             285.20,29.71 285.20,28.15 285.20,28.15
+             285.20,25.95 287.27,23.88 289.47,23.88
+             290.34,23.88 291.68,24.11 292.50,24.39
+             294.29,25.03 294.94,24.57 296.54,21.40
+             296.54,21.40 297.69,19.11 297.69,19.11
+             297.69,19.11 296.73,18.32 296.73,18.32
+             294.80,16.76 287.96,15.34 285.66,16.03 Z" />
+    </svg>
+
 );
 
 export const LinkArrow = ({ className, ...rest }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    viewBox="0 0 24 24"
-    className={`w-full h-auto ${className}`}
-    {...rest}
-  >
-    <path fill="none" d="M0 0h24v24H0z" />
-    <path
-      fill="none"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M11 7H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-5m-7 1L20 4m-5 0h5v5"
-    />
-  </svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width={24}
+        height={24}
+        viewBox="0 0 24 24"
+        className={`w-full h-auto ${className}`}
+        {...rest}
+    >
+        <path fill="none" d="M0 0h24v24H0z" />
+        <path
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M11 7H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-5m-7 1L20 4m-5 0h5v5"
+        />
+    </svg>
 );
 
