@@ -21,7 +21,7 @@ import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
 import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 import { useState } from 'react';
-import '../styles/projects.css'
+import './../styles/projects.css'
 
 const FramerImage = motion(Image);
 
