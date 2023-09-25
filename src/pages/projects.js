@@ -21,7 +21,6 @@ import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
 import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 import { useState } from 'react';
-import '../styles/projects.css'
 
 const FramerImage = motion(Image);
 
@@ -39,7 +38,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
          dark:bg-light  xs:-right-2 xs:h-[102%] xs:w-[100%]
         xs:rounded-[1.5rem] "
             />
-
+            
             <Link
                 href={link}
                 target={"_blank"}
@@ -248,7 +247,11 @@ export default function Home() {
             <div id="content1" style={{ display: activeContent === 1 ? 'block' : 'none' }}>
                 <>
                     <Head>
-
+                    <Link
+                        rel="stylesheet"
+                        type="text/css"
+                        href="../styles/projects.css"
+                    />
                         <title>Modern Portfolio Built with Nextjs | Projects Page</title>
                         <meta
                             name="description"
@@ -353,6 +356,11 @@ export default function Home() {
             <div id="content2" style={{ display: activeContent === 2 ? 'block' : 'none' }}>
                 <>
                     <Head>
+                    <Link
+                        rel="stylesheet"
+                        type="text/css"
+                        href="../styles/projects.css"
+                    />
                         <title>Modern Portfolio Built with Nextjs | Projects Page</title>
                         <meta
                             name="description"
@@ -397,6 +405,11 @@ export default function Home() {
             <div id="content3" style={{ display: activeContent === 3 ? 'block' : 'none' }}>
                 <>
                     <Head>
+                    <Link
+                        rel="stylesheet"
+                        type="text/css"
+                        href="../styles/projects.css"
+                    />
                         <title>Modern Portfolio Built with Nextjs | Projects Page</title>
                         <meta
                             name="description"
