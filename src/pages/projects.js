@@ -21,6 +21,7 @@ import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
 import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 import { useState } from 'react';
+
 const FramerImage = motion(Image);
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -37,7 +38,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
          dark:bg-light  xs:-right-2 xs:h-[102%] xs:w-[100%]
         xs:rounded-[1.5rem] "
             />
-            
+
             <Link
                 href={link}
                 target={"_blank"}
@@ -246,6 +247,7 @@ export default function Home() {
             <div id="content1" style={{ display: activeContent === 1 ? 'block' : 'none' }}>
                 <>
                     <Head>
+
                         <title>Modern Portfolio Built with Nextjs | Projects Page</title>
                         <meta
                             name="description"
@@ -265,6 +267,19 @@ export default function Home() {
                             />
 
                             <div className="buttons">
+                                <Link
+                                    onClick={() => switchContent(1)}
+                                    className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
+            capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
+            dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
+            md:p-2 md:px-4 md:text-base
+             `}
+                                >
+                                    Websites <LinkArrow className="ml-1 !w-6 md:!w-4" />
+                                </Link>
+
+
+
                                 <button onClick={() => switchContent(1)}>Websites </button>
                                 <button onClick={() => switchContent(2)}>Softwares </button>
                                 <button onClick={() => switchContent(3)}>Mobile Application </button>
@@ -394,7 +409,6 @@ export default function Home() {
             <div id="content3" style={{ display: activeContent === 3 ? 'block' : 'none' }}>
                 <>
                     <Head>
-
                         <title>Modern Portfolio Built with Nextjs | Projects Page</title>
                         <meta
                             name="description"
