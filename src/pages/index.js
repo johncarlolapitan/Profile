@@ -15,13 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>John Carlo F. Lapitan - Portfolio</title>
-        <meta
-          name="description"
-          content="Explore CodeBucks's Next.js developer portfolio and 
-        discover the latest webapp projects and software engineering articles. 
-        Showcase your skills as a full-stack developer and software engineer."
-        />
+        <title>John Carlo F. Lapitan | Home Portfolio</title>
       </Head>
 
       <TransitionEffect />
@@ -33,7 +27,7 @@ export default function Home() {
             <div className="w-1/2 lg:hidden md:inline-block md:w-full">
               <Image
                 src={profilePic}
-                alt="CodeBucks"
+                alt="MyPicture"
                 className="h-auto w-full"
                 sizes="100vw"
                 priority
@@ -49,9 +43,6 @@ export default function Home() {
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  // whileHover={{
-                  //   cursor: `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='font-size:24px;'><text y='50%'>👆</text></svg>"), auto`,
-                  // }}
                   href="/Lapitan_CV.pdf"
                   target={"_blank"}
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
@@ -81,7 +72,7 @@ export default function Home() {
           <Image
             className="relative h-auto w-full"
             src={lightBulb}
-            alt="Codebucks"
+            alt="JohnCarlo"
           />
         </div>
       </article>

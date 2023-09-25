@@ -39,10 +39,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Minimal Portfolio Built with Nextjs | About Page</title>
-        <meta name="description" content="Learn more about CodeBucks, a Next.js developer with a passion for 
-        creating innovative solutions. Discover tips for building a developer portfolio and insights on 
-        full-stack development, front-end development, and back-end development." />
+        <title>John Carlo Lapitan | About Page</title>
       </Head>
       <TransitionEffect />
       <main
@@ -95,7 +92,7 @@ export default function About() {
               <Image
                 className="h-auto w-full rounded-2xl"
                 src={profile}
-                alt="Codebucks"
+                alt="MyProfile"
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
@@ -116,7 +113,7 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={10} />+
+                  <AnimatedNumberFramerMotion value={12} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
