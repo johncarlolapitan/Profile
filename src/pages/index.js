@@ -6,7 +6,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
+import profilePic from "../../public/images/profile/lapitan.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Awesome Portfolio Built with Nextjs</title>
+        <title>John Carlo F. Lapitan - Portfolio</title>
         <meta
           name="description"
           content="Explore CodeBucks's Next.js developer portfolio and 
@@ -52,7 +52,7 @@ export default function Home() {
                   // whileHover={{
                   //   cursor: `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='font-size:24px;'><text y='50%'>👆</text></svg>"), auto`,
                   // }}
-                  href="/dummy.pdf"
+                  href="/Lapitan_CV.pdf"
                   target={"_blank"}
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
             capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
@@ -65,7 +65,7 @@ export default function Home() {
                 </Link>
 
                 <Link
-                  href="mailto:codebucks27@gmail.com"
+                  href="mailto:jcarlolapitan6@gmail.com"
                   className="ml-4 text-lg font-medium capitalize text-dark underline 
                   dark:text-light md:text-base"
                 >

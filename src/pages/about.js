@@ -1,7 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profile from "../../public/images/profile/developer-pic-2.jpg";
+import profile from "../../public/images/profile/developer-pic-3.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Skills from "@/components/Skills";
@@ -60,16 +61,19 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>CodeBucks</strong>, a web developer and
-                UI/UX designer with a passion for creating beautiful,
-                functional, and user-centered digital experiences. With 4 years
-                of experience in the field. I am always looking for new and
-                innovative ways to bring my clients&apos; visions to life.
+                Greetings! I'm <strong>John Carlo F. Lapitan</strong>, and I'm thrilled to have you visit 
+                my corner of the internet. I'm a web and software developer, I specialize in crafting responsive, 
+                visually stunning, and user-friendly websites. I bring your digital vision to life. My passion 
+                lies in creating web experiences that not only captivate users but also drive results. Behind 
+                the scenes, I'm an adept software engineer. I thrive on developing efficient and scalable applications
+                that solve real-world problems. Whether it's a mobile app, or a desktop software, I'm here to code your 
+                ideas into reality. 
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty – it&apos;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                The tech world evolves at a breathtaking pace, and I'm committed 
+                to staying at the forefront. I'm passionate about learning and 
+                adapting to the latest technologies, frameworks, and design trends. 
+                Your project will always benefit from cutting-edge solutions.
               </p>
               <p className="font-medium">
                 Whether I&apos;m working on a website, mobile app, or other
@@ -102,7 +106,7 @@ export default function About() {
             xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={40} />+
+                  <AnimatedNumberFramerMotion value={9} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
@@ -112,7 +116,7 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={50} />+
+                  <AnimatedNumberFramerMotion value={10} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
@@ -122,7 +126,7 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={4} />+
+                  <AnimatedNumberFramerMotion value={1} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
