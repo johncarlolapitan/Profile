@@ -21,7 +21,7 @@ import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
 import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 import { useState } from 'react';
-
+import linkcss from "../styles/projects.css"
 const FramerImage = motion(Image);
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -250,7 +250,7 @@ export default function Home() {
                     <Link
                         rel="stylesheet"
                         type="text/css"
-                        href="../styles/projects.css"
+                        href={linkcss}
                     />
                         <title>Modern Portfolio Built with Nextjs | Projects Page</title>
                         <meta
@@ -359,7 +359,7 @@ export default function Home() {
                     <Link
                         rel="stylesheet"
                         type="text/css"
-                        href="../styles/projects.css"
+                        href={linkcss}
                     />
                         <title>Modern Portfolio Built with Nextjs | Projects Page</title>
                         <meta
@@ -408,7 +408,7 @@ export default function Home() {
                     <Link
                         rel="stylesheet"
                         type="text/css"
-                        href="../styles/projects.css"
+                        href={linkcss}
                     />
                         <title>Modern Portfolio Built with Nextjs | Projects Page</title>
                         <meta
