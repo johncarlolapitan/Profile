@@ -267,22 +267,21 @@ export default function Home() {
                             />
 
                             <div className="buttons">
-                                <Link
-                                    onClick={() => switchContent(1)}
-                                    className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
-            capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
-            dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
-            md:p-2 md:px-4 md:text-base
-             `}
-                                >
-                                    Websites <LinkArrow className="ml-1 !w-6 md:!w-4" />
-                                </Link>
-
-
-
-                                <button onClick={() => switchContent(1)}>Websites </button>
-                                <button onClick={() => switchContent(2)}>Softwares </button>
-                                <button onClick={() => switchContent(3)}>Mobile Application </button>
+                                <button className="rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
+                                capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
+                                dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
+                                md:p-2 md:px-4 md:text-base
+                                " onClick={() => switchContent(1)}>Websites </button>
+                                                    <button className="rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
+                                capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
+                                dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
+                                md:p-2 md:px-4 md:text-base
+                                " onClick={() => switchContent(2)}>Softwares </button>
+                                                    <button className="rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
+                                capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
+                                dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
+                                md:p-2 md:px-4 md:text-base
+                                " onClick={() => switchContent(3)}>Mobile Application </button>
                             </div>
 
                             <br />
@@ -384,9 +383,21 @@ export default function Home() {
                             />
 
                             <div className="buttons">
-                                <button onClick={() => switchContent(1)}>Websites </button>
-                                <button onClick={() => switchContent(2)}>Softwares </button>
-                                <button onClick={() => switchContent(3)}>Mobile Application </button>
+                                <button className="rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
+                                capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
+                                dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
+                                md:p-2 md:px-4 md:text-base
+                                " onClick={() => switchContent(1)}>Websites </button>
+                                <button className="rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
+                                capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
+                                dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
+                                md:p-2 md:px-4 md:text-base
+                                " onClick={() => switchContent(2)}>Softwares </button>
+                                <button className="rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
+                                capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
+                                dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
+                                md:p-2 md:px-4 md:text-base
+                                " onClick={() => switchContent(3)}>Mobile Application </button>
                             </div>
 
                             <br />
@@ -428,9 +439,21 @@ export default function Home() {
                             />
 
                             <div className="buttons">
-                                <button onClick={() => switchContent(1)}>Websites </button>
-                                <button onClick={() => switchContent(2)}>Softwares </button>
-                                <button onClick={() => switchContent(3)}>Mobile Application </button>
+                                <button className="rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
+                                capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
+                                dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
+                                md:p-2 md:px-4 md:text-base
+                                " onClick={() => switchContent(1)}>Websites </button>
+                                <button className="rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
+                                capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
+                                dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
+                                md:p-2 md:px-4 md:text-base
+                                " onClick={() => switchContent(2)}>Softwares </button>
+                                <button className="rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
+                                capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
+                                dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
+                                md:p-2 md:px-4 md:text-base
+                                " onClick={() => switchContent(3)}>Mobile Application </button>
                             </div>
 
                             <br />
