@@ -39,7 +39,7 @@ export default function Home() {
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              As a versatile software and web developer, I craft digital solutions that seamlessly blend innovation and functionality. With a keen eye for design and a passion for clean, efficient code, I specialize in creating dynamic web applications and software that not only meet but exceed your expectations. Let's transform your ideas into captivating online experiences.
+              As a versatile software and web developer, I craft digital solutions that seamlessly blend innovation and functionality. With a keen eye for design and a passion for clean, efficient code, I specialize in creating dynamic web applications and software that not only meet but exceed your expectations. Lets transform your ideas into captivating online experiences.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
