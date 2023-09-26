@@ -12,6 +12,9 @@ import web3 from "../../public/images/website/anao.png";
 import web4 from "../../public/images/website/estonia.png";
 import web5 from "../../public/images/website/the6th.png";
 import web6 from "../../public/images/website/davwow.png";
+import web7 from "../../public/images/website/porac.png";
+import web8 from "../../public/images/website/suyo.png";
+import web9 from "../../public/images/website/mcp.png";
 import soft1 from "../../public/images/website/bubble.png";
 import soft2 from "../../public/images/website/csharp.png";
 import proj3 from "../../public/images/projects/fashion-studio-website.jpg";
@@ -93,7 +96,6 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
         </article>
     );
 };
-
 const FeaturedProject1 = ({ type, title, summary, img, github }) => {
 
     return (
@@ -224,8 +226,6 @@ const Project = ({ title, type, img, summary, link, github }) => {
         </article>
     );
 };
-
-
 const Project1 = ({ title, type, img, summary,  github }) => {
 
     return (
@@ -333,7 +333,7 @@ export default function Home() {
                                     <FeaturedProject
                                         type="Wordpress | YooTheme"
                                         title="Municipality Of Alcoy Website"
-                                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                                        summary="Municipality of Alcoy Website, This is a revamp website for Alcoy Website, This is my Final Project During my On-The-Job training in My Creative Panda. This Website is Built with Wordpress that uses YooTheme as it's builder"
                                         img={web1}
                                         link="http://alcoy.free.nf/"
                                         github="https://github.com/codebucks27/CryptoBucks-Final-Code"
@@ -346,7 +346,7 @@ export default function Home() {
                                     <Project
                                         type="Wordpress | YooTheme"
                                         title="Municipality Of Anao Website"
-                                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                                        summary="Municipality of Anao Website, This is a revamp website for Anao Website, This is one of my Project During my On-The-Job training in My Creative Panda. This Website is Built with Wordpress that uses YooTheme as it's builder"
                                         img={web3}
                                         link="http://anao.free.nf/"
                                         github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
@@ -356,30 +356,30 @@ export default function Home() {
                                     <Project
                                         type="Wordpress | YooTheme"
                                         title="Municipality Of Porac Website"
-                                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                                        img={proj3}
-                                        link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                                        github="https://github.com/codebucks27/wibe-studio"
+                                        summary="Municipality of Porac Website, This is a revamp website for Porac Website, This is one of my Project During my On-The-Job training in My Creative Panda. This Website is Built with Wordpress that uses YooTheme as it's builder."
+                                        img={web7}
+                                        link=""
+                                        github=""
                                     />
                                 </div>
                                 <div className="col-span-6 sm:col-span-12">
                                     <Project
                                         type="Wordpress | YooTheme"
                                         title="Municipality Of Suyo Website"
-                                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                                        img={web3}
-                                        link="http://anao.free.nf/"
-                                        github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
+                                        summary="Municipality of Suyo Website, This is a revamp website for Suyo Website, This is my First Project During my On-The-Job training in My Creative Panda. This Website is Built with Wordpress that uses YooTheme as it's builder"
+                                        img={web8}
+                                        link=""
+                                        github=""
                                     />
                                 </div>
                                 <div className="col-span-6 sm:col-span-12">
                                     <Project
                                         type="Wordpress | YooTheme"
                                         title="My Creative Panda Website"
-                                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                                        img={proj3}
-                                        link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                                        github="https://github.com/codebucks27/wibe-studio"
+                                        summary="My Creative Panda Website, This is a revamp website for My Creative Panda Website, This is one of my Project During my On-The-Job training in My Creative Panda. This Website is Built with Wordpress that uses YooTheme as it's builder"
+                                        img={web9}
+                                        link=""
+                                        github=""
                                     />
                                 </div>
 
@@ -387,7 +387,7 @@ export default function Home() {
                                     <Project
                                         type="HTML, CSS, JS"
                                         title="The 6th Website"
-                                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                                        summary="The 6th Website, This Website is built by HTML, CSS, and JS. This system is a collaboration with other Strand during our SHS and we develop this Website together with our team and i help a lot during the development phase"
                                         img={web5}
                                         link="https://johncarlolapitan.github.io/The-6th/"
                                         github="https://github.com/johncarlolapitan/The-6th"
@@ -397,24 +397,18 @@ export default function Home() {
                                     <Project
                                         type="HTML, CSS, JS"
                                         title="DavWow Website"
-                                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                                        summary="DavWow Website, This Website is built by HTML, CSS, and JS. This system is a collaboration with other Strand during our SHS and we develop this Website together with our team and i help a lot during the development phase"
                                         img={web6}
                                         link="https://johncarlolapitan.github.io/DavWow/"
                                         github="https://github.com/johncarlolapitan/DavWow"
                                     />
                                 </div>
 
-
-
-
-
-
-
                                 <div className="col-span-12">
                                     <FeaturedProject
                                         type="HTML, CSS, JS"
                                         title="Estonia Website"
-                                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                                        summary="Tourism Website For Estonia, This Website was built by HTML, CSS, and JS, and it highlights the Esotonia, This system is built during our Final Project in Our Web Design Subject and i was the lead prog in the group."
                                         img={web4}
                                         link="https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css"
                                         github="https://github.com/codebucks27/CryptoBucks-Final-Code"
@@ -467,7 +461,7 @@ export default function Home() {
                                     <FeaturedProject
                                         type="PHP, CSS, HTML, JS | Codeigniter 3"
                                         title="POS and Inventory System For Bubble Bee"
-                                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                                        summary="POS and Inventory System for Bubble Bee, This system lets the user to monitor and transact a transaction in their sales that can also generate a report for their remaining stocks and daily profit, also it can be use by multiple devices such as phone, tablet, and laptop. This system is our Capstone Project and i was the lead prog of the group."
                                         img={soft1}
                                         link="https://bubblebeefood.epizy.com/Group6_Caps/"
                                         github="https://github.com/johncarlolapitan/Capstone"
@@ -477,7 +471,7 @@ export default function Home() {
                                     <FeaturedProject1
                                         type="C# | Visual Studio"
                                         title="Inventory and Point of Sales Windows Form System"
-                                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                                        summary="Inventory and Point of Sales Windows Form System, This system lets the user to monitor stocks and transact a transaction in their sales that can also generate a report for their daily profit, This System was built during Our Final Project in SHS and was task to get a Culinary Team as our Client, and i was the Lead PRogrammer of the group."
                                         img={soft2}
                                         github="https://github.com/johncarlolapitan/Pasteleria"
                                     />
@@ -529,7 +523,8 @@ export default function Home() {
                                     <Project1
                                         type="Android Studio"
                                         title="Oh My Stocks | Inventory Mobile Application"
-                                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                                        //summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                                        summary="Oh My Stocks, is a Inventory Application for Pharmacy at Tarlac Provincial Hospital (TPH) I develop this projects during my SHS days wherein we are task for our final project to find a client within the Tarlac City and create and application for their business components."
                                         img={mob1}
                                         github="https://github.com/johncarlolapitan/Oh-My-Stocks"
                                     />
@@ -538,7 +533,7 @@ export default function Home() {
                                     <Project1
                                         type="Android Studio"
                                         title="Crushies | Ordering Mobile Application"
-                                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                                        summary="Crushies, is a Ordering Mobile Application, I develop this projects during my SHS days wherein we have a client that is requesting to develop a simple Ordering Mobile Application, UI Elements is not align in the screen since it is built with older version."
                                         img={mob2}
                                         github="https://github.com/johncarlolapitan/Crushies"
                                     />
