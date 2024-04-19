@@ -89,9 +89,27 @@ const Experience = () => {
               company="My Creative Panda"
               companyLink="https://mycreativepanda.com/"
               time="2023"
-              address="8070 8th St., Fairlane Subdivision, San Vicente Tarlac City"
+              address="8070 8th St., Fairlane Subdivision, San Vicente Tarlac City, Tarlac 2300"
               //work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
             />
+
+             <Details
+              position="Junior Web Developer"
+              company="My Creative Panda"
+              companyLink="https://mycreativepanda.com/"
+              time="2023"
+              address="8070 8th St., Fairlane Subdivision, San Vicente Tarlac City, Tarlac 2300"
+              //work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+            />   
+
+             <Details
+              position="Technical IT Staff"
+              company="Ramos General Hospital"
+              companyLink="#"
+              time="2023-2024"
+              address="769 P. Hilario St. Brgy. Ligtasan, Tarlac City, Tarlac 2300"
+              work="Worked on a team responsible for Technical Problems within the organization."
+            />   
           </ul>
         </div>
         </div>
