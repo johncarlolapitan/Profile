@@ -61,14 +61,16 @@ const Experience = () => {
             style={{ scaleY: scrollYProgress }}
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+
             <Details
-              position="Technical Intern"
-              company="My Creative Panda"
-              companyLink="https://mycreativepanda.com/"
-              time="2023"
-              address="8070 8th St., Fairlane Subdivision, San Vicente Tarlac City"
-              //work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+              position="SPES Baby"
+              company="Municipal Capitol of Tarlac City"
+              companyLink="#"
+              time="Summer 2018"
+              address="Capitol Macabulos Drive 2300 Tarlac Tarlac"
+              //work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
             />
+      
 
             <Details
               position="Work Immersion Assistant"
@@ -82,13 +84,13 @@ const Experience = () => {
               //and developing the backend infrastructure to support the feature."
             />
 
-            <Details
-              position="SPES Baby"
-              company="Municipal Capitol of Tarlac City"
-              companyLink="#"
-              time="Summer 2018"
-              address="Capitol Macabulos Drive 2300 Tarlac Tarlac"
-              //work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
+             <Details
+              position="Technical Intern"
+              company="My Creative Panda"
+              companyLink="https://mycreativepanda.com/"
+              time="2023"
+              address="8070 8th St., Fairlane Subdivision, San Vicente Tarlac City"
+              //work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
             />
           </ul>
         </div>
