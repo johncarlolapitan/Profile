@@ -378,7 +378,7 @@ export default function Home() {
                                         title="My Creative Panda Website"
                                         summary="My Creative Panda Website, This is a revamp website for My Creative Panda Website, This is one of my Project During my On-The-Job training in My Creative Panda. This Website is Built with Wordpress that uses YooTheme as it's builder"
                                         img={web9}
-                                        link=""
+                                        link="https://mycreativepanda.com/"
                                         github=""
                                     />
                                 </div>
