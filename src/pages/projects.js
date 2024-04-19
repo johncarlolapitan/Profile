@@ -336,7 +336,7 @@ export default function Home() {
                                         summary="Municipality of Alcoy Website, This is a revamp website for Alcoy Website, This is my Final Project During my On-The-Job training in My Creative Panda. This Website is Built with Wordpress that uses YooTheme as it's builder"
                                         img={web1}
                                         link="http://alcoy.free.nf/"
-                                        github="https://github.com/codebucks27/CryptoBucks-Final-Code"
+                                        github="#"
                                     />
                                 </div>
 
@@ -349,7 +349,7 @@ export default function Home() {
                                         summary="Municipality of Anao Website, This is a revamp website for Anao Website, This is one of my Project During my On-The-Job training in My Creative Panda. This Website is Built with Wordpress that uses YooTheme as it's builder"
                                         img={web3}
                                         link="http://anao.free.nf/"
-                                        github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
+                                        github="#"
                                     />
                                 </div>
                                 <div className="col-span-6 sm:col-span-12">
@@ -411,7 +411,7 @@ export default function Home() {
                                         summary="Tourism Website For Estonia, This Website was built by HTML, CSS, and JS, and it highlights the Esotonia, This system is built during our Final Project in Our Web Design Subject and i was the lead prog in the group."
                                         img={web4}
                                         link="https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css"
-                                        github="https://github.com/codebucks27/CryptoBucks-Final-Code"
+                                        github="#"
                                     />
                                 </div>
                             </div>
