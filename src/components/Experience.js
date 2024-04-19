@@ -90,7 +90,7 @@ const Experience = () => {
               companyLink="https://mycreativepanda.com/"
               time="2023"
               address="8070 8th St., Fairlane Subdivision, San Vicente Tarlac City, Tarlac 2300"
-              //work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+              work="Worked on a team responsible for updating news and events of some LGU website and, help seniors to develop some pages."
             />
 
              <Details
@@ -99,7 +99,7 @@ const Experience = () => {
               companyLink="https://mycreativepanda.com/"
               time="2023"
               address="8070 8th St., Fairlane Subdivision, San Vicente Tarlac City, Tarlac 2300"
-              //work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+              work="Worked on a team responsible for developing a creative website that meets the client's needs"
             />   
 
              <Details
