@@ -529,15 +529,6 @@ export default function Home() {
                                         github="https://github.com/johncarlolapitan/Oh-My-Stocks"
                                     />
                                 </div>
-                                <div className="col-span-6 sm:col-span-12">
-                                    <Project1
-                                        type="Android Studio"
-                                        title="Crushies | Ordering Mobile Application"
-                                        summary="Crushies, is a Ordering Mobile Application, I develop this projects during my SHS days wherein we have a client that is requesting to develop a simple Ordering Mobile Application, UI Elements is not align in the screen since it is built with older version."
-                                        img={mob2}
-                                        github="https://github.com/johncarlolapitan/Crushies"
-                                    />
-                                </div>
                             </div>
                         </Layout>
                     </main>
