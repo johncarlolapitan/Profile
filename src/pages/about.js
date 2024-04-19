@@ -57,7 +57,7 @@ export default function About() {
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 BIOGRAPHY
               </h2>
-              <p className="font-medium ">
+              <p className="font-medium " align="justify">
                 Greetings! I'm <strong>John Carlo F. Lapitan</strong>, and I'm thrilled to have you visit 
                 my corner of the internet. I'm a web and software developer, I specialize in crafting responsive, 
                 visually stunning, and user-friendly websites. I bring your digital vision to life. My passion 
@@ -66,13 +66,13 @@ export default function About() {
                 that solve real-world problems. Whether it's a mobile app, or a desktop software, I'm here to code your 
                 ideas into reality. 
               </p>
-              <p className="my-4 font-medium">
+              <p className="my-4 font-medium" align="justify">
                 The tech world evolves at a breathtaking pace, and I'm committed 
                 to staying at the forefront. I'm passionate about learning and 
                 adapting to the latest technologies, frameworks, and design trends. 
                 Your project will always benefit from cutting-edge solutions.
               </p>
-              <p className="font-medium">
+              <p className="font-medium" align="justify">
                 Whether I&apos;m working on a website, mobile app, or other
                 digital product, I bring my commitment to design excellence and
                 user-centered thinking to every project I work on. I look
