@@ -390,7 +390,7 @@ export default function Home() {
                                         summary="The 6th Website, This Website is built by HTML, CSS, and JS. This system is a collaboration with other Strand during our SHS and we develop this Website together with our team and i help a lot during the development phase"
                                         img={web5}
                                         link="https://johncarlolapitan.github.io/The-6th/"
-                                        github="https://github.com/johncarlolapitan/The-6th"
+                                        github="#"
                                     />
                                 </div>
                                 <div className="col-span-6 sm:col-span-12">
@@ -400,7 +400,7 @@ export default function Home() {
                                         summary="DavWow Website, This Website is built by HTML, CSS, and JS. This system is a collaboration with other Strand during our SHS and we develop this Website together with our team and i help a lot during the development phase"
                                         img={web6}
                                         link="https://johncarlolapitan.github.io/DavWow/"
-                                        github="https://github.com/johncarlolapitan/DavWow"
+                                        github="#"
                                     />
                                 </div>
 
@@ -410,7 +410,7 @@ export default function Home() {
                                         title="Estonia Website"
                                         summary="Tourism Website For Estonia, This Website was built by HTML, CSS, and JS, and it highlights the Esotonia, This system is built during our Final Project in Our Web Design Subject and i was the lead prog in the group."
                                         img={web4}
-                                        link="https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css"
+                                        link="#"
                                         github="#"
                                     />
                                 </div>
