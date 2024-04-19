@@ -44,17 +44,10 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            type="Bachelor of Science in Information Technology"
-            time="2019-2023"
-            place="STI College Tarlac"
-            info="Tertiary"
-          />
-
-          <Details
-            type="STI College Tarlac (Senior High School Diploma)"
-            time="2017-2019"
-            place="STI College Tarlac"
-            info="Secondary"
+            type="Sto. Cristo Elementary School"
+            time="2007-2013"
+            place="Sto. Cristo, Tarlac City"
+            info="Primary"
           />
           <Details
             type="Our Lady of Ransom Catholic School (Junior High School Diploma)"
@@ -63,10 +56,16 @@ const Education = () => {
             info="Secondary"
           />
           <Details
-            type="Sto. Cristo Elementary School"
-            time="2007-2013"
-            place="Sto. Cristo, Tarlac City"
-            info="Primary"
+            type="STI College Tarlac (Senior High School Diploma)"
+            time="2017-2019"
+            place="STI College Tarlac"
+            info="Secondary"
+          />
+          <Details
+            type="Bachelor of Science in Information Technology"
+            time="2019-2023"
+            place="STI College Tarlac"
+            info="Tertiary"
           />
         </ul>
       </div>
