@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4
       - name: Detect package manager
         id: detect-package-manager
         run: |
