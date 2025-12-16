@@ -15,6 +15,7 @@ import web6 from "../../public/images/website/davwow.png";
 import web7 from "../../public/images/website/porac.png";
 import web8 from "../../public/images/website/suyo.png";
 import web9 from "../../public/images/website/mcp.png";
+import web10 from "../../public/images/website/otcpartner.png";
 import soft1 from "../../public/images/website/bubble.png";
 import soft2 from "../../public/images/website/csharp.png";
 import proj3 from "../../public/images/projects/fashion-studio-website.jpg";
@@ -395,11 +396,11 @@ export default function Home() {
                                 </div>
                                 <div className="col-span-6 sm:col-span-12">
                                     <Project
-                                        type="HTML, CSS, JS"
-                                        title="DavWow Website"
-                                        summary="DavWow Website, This Website is built by HTML, CSS, and JS. This system is a collaboration with other Strand during our SHS and we develop this Website together with our team and i help a lot during the development phase"
-                                        img={web6}
-                                        link="https://johncarlolapitan.github.io/DavWow/"
+                                        type="Wordpress | Elementor"
+                                        title="OTC and Partners Website"
+                                       summary="OTC and Partners Website, This is a revamp website for OTC and Partners Website This is one of my Project During my Freelancing. This Website is Built with Wordpress that uses Elementor as it's builder"
+                                        img={web10}
+                                        link="https://otcandpartners.com/"
                                         github="#"
                                     />
                                 </div>
@@ -537,3 +538,4 @@ export default function Home() {
         </div>
     );
 }
+
