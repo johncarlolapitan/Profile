@@ -15,7 +15,7 @@ import web6 from "../../public/images/website/davwow.png";
 import web7 from "../../public/images/website/porac.png";
 import web8 from "../../public/images/website/suyo.png";
 import web9 from "../../public/images/website/mcp.png";
-import web10 from "../../public/images/website/otcpartner.png";
+import web10 from "../../public/images/website/otcpartner.png"; 
 import soft1 from "../../public/images/website/bubble.png";
 import soft2 from "../../public/images/website/csharp.png";
 import proj3 from "../../public/images/projects/fashion-studio-website.jpg";
@@ -538,4 +538,5 @@ export default function Home() {
         </div>
     );
 }
+
 
